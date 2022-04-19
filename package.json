@@ -12,6 +12,6 @@
   "devDependencies": {
     "@netlify/build": "^26.3.14",
     "@netlify/functions": "^1.0.0",
-    "@netlify/plugin-nextjs": "^4.4.0"
+    "@netlify/plugin-nextjs": "^4.4.2"
   }
 }
