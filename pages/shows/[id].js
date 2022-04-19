@@ -17,7 +17,9 @@ const Show = ({ errorCode, show, env }) => {
         Refresh the page to see server-side rendering in action.
         <br />
         You can also try changing the ID to any other number between 1-10000.
-        Env: {env}
+        <br />
+        Note the headers <code>x-modified-edge</code> and <code>x-is-deno</code>{' '}
+        set by middleware running on the edge.
       </p>
       <hr />
 
