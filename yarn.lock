@@ -1004,7 +1004,7 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@netlify/build@^26.3.14":
+"@netlify/build@^26.5.3":
   version "26.5.3"
   resolved "https://registry.yarnpkg.com/@netlify/build/-/build-26.5.3.tgz#68f8ea15ba48cd0ecdbe239462ae6cecfd57c5cd"
   integrity sha512-O16lFUI6/uooWIvgrO/fQphx4vAGTW9GDAQ3hvo5M64XFdu+9W/OU0fB0fAPAJp+wGM+/hZI5JSS6rCG+TWifg==
