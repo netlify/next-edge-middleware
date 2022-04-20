@@ -11,8 +11,8 @@ const Show = ({ errorCode, show, env }) => {
   return (
     <div>
       <p>
-        This page uses getInitialProps() to fetch the show with the ID provided
-        in the URL: /shows/:id
+        This page uses getServerSideProps() to fetch the show with the ID
+        provided in the URL: /shows/:id
         <br />
         Refresh the page to see server-side rendering in action.
         <br />
