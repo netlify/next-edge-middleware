@@ -55,6 +55,14 @@
   font-size: 1.5rem;
 }
 
+.welcome {
+  margin-left: 0.8em;
+}
+
+.flag {
+  vertical-align: middle;
+}
+
 .code {
   background: #fafafa;
   border-radius: 5px;
