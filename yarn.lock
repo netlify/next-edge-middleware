@@ -1188,10 +1188,10 @@
     rollup-plugin-node-polyfills "^0.2.1"
     rollup-plugin-terser "^7.0.2"
 
-"@netlify/plugin-nextjs@^4.4.4":
-  version "4.4.4"
-  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-4.4.4.tgz#24008a3ad2e9373611fba6eb38f094793c8d79c1"
-  integrity sha512-27JOObIr7ZziaqdARHV33Mox17TKDyjnuNrjjwgb2fHX2cgC74n7ct5QQAe9jucbxZlzuCsDHao0p+qBH3KaZA==
+"@netlify/plugin-nextjs@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-4.5.0.tgz#42b64e316279075bfa6368b3d3d73b84b97a7bc7"
+  integrity sha512-h+SHobMB6BCSOiNolwqaLoVVnCBIaBY2OgqXqMkaSFgM7BgMz2htUgAlfq9rcJwuMOEzHJ//hiUkySG5+rqbbw==
   dependencies:
     "@netlify/functions" "^1.0.0"
     "@netlify/ipx" "^0.0.10"
