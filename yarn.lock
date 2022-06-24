@@ -1140,10 +1140,10 @@
     moize "^6.0.0"
     path-exists "^5.0.0"
 
-"@netlify/ipx@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@netlify/ipx/-/ipx-1.1.0.tgz#b87ba9417a1f4e7b7249bf9feea4b47495ac8ef7"
-  integrity sha512-acJOb8YGd+lMMRVEhEOhQ6d92e0k6fCmucYBOJIhMXGl7CfZgRzxj2/XzoRz9j5uohrrBBiG3u2hP8MCznRHzw==
+"@netlify/ipx@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@netlify/ipx/-/ipx-1.1.2.tgz#172bce510a46e8c1d6f9abb44e0ae444ed614cae"
+  integrity sha512-Gm9s9J2uN6vf+/1n52KhEkXGSS6L0OXTLRZ7CXKDXxfLKL5J3YW3Oqsjs4DJuueh4niYOG0CmFTXgnCWlaxbmA==
   dependencies:
     "@netlify/functions" "^1.0.0"
     etag "^1.8.1"
@@ -1153,7 +1153,7 @@
     mkdirp "^1.0.4"
     murmurhash "^2.0.0"
     node-fetch "^2.0.0"
-    ufo "^0.7.11"
+    ufo "^0.8.0"
     unstorage "^0.2.8"
 
 "@netlify/open-api@^2.8.0":
@@ -1182,13 +1182,13 @@
     rollup-plugin-node-polyfills "^0.2.1"
     rollup-plugin-terser "^7.0.2"
 
-"@netlify/plugin-nextjs@^4.9.1":
-  version "4.9.1"
-  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-4.9.1.tgz#af9b5100d9b866e9bee180ea0ca7690d63ab40f7"
-  integrity sha512-wV095RZH4D/2jDwKGhRfHQiUglk5/3d5MUjlEpwtYNyjT4iNf7bp+1YBbH8AbuCqC2TRdRrW3JBN/fQuVWQlGQ==
+"@netlify/plugin-nextjs@^4.9.2":
+  version "4.9.2"
+  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-4.9.2.tgz#46b38f758a93dab415efaf1eba6961474f16974e"
+  integrity sha512-zTPl4bJAlScnJNBOGoz2UmUaACEbKD/DnFQIDDhg3NVA+x/KsBWxvTaR6hnAR27ILi9qW/ZtiFZ4ZX+rx3iDVQ==
   dependencies:
     "@netlify/functions" "^1.0.0"
-    "@netlify/ipx" "^1.1.0"
+    "@netlify/ipx" "^1.1.2"
     "@vercel/node-bridge" "^2.1.0"
     chalk "^4.1.2"
     fs-extra "^10.0.0"
@@ -6185,10 +6185,15 @@ typescript@^4.5.4:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.3.tgz#eefeafa6afdd31d725584c67a0eaba80f6fc6c6c"
   integrity sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==
 
-ufo@^0.7.10, ufo@^0.7.11, ufo@^0.7.9:
+ufo@^0.7.10, ufo@^0.7.9:
   version "0.7.11"
   resolved "https://registry.yarnpkg.com/ufo/-/ufo-0.7.11.tgz#17defad497981290383c5d26357773431fdbadcb"
   integrity sha512-IT3q0lPvtkqQ8toHQN/BkOi4VIqoqheqM1FnkNWT9y0G8B3xJhwnoKBu5OHx8zHDOvveQzfKuFowJ0VSARiIDg==
+
+ufo@^0.8.0:
+  version "0.8.4"
+  resolved "https://registry.yarnpkg.com/ufo/-/ufo-0.8.4.tgz#23e9ed82398d2116dcb378e8fba5ced8eca2ee40"
+  integrity sha512-/+BmBDe8GvlB2nIflWasLLAInjYG0bC9HRnfEpNi4sw77J2AJNnEVnTDReVrehoh825+Q/evF3THXTAweyam2g==
 
 undici@^4.9.5:
   version "4.16.0"
