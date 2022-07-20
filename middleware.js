@@ -1,8 +1,9 @@
 import { NextResponse } from 'next/server'
 
-export async function middleware(req) {
+export async function middleware(req, context) {
   console.log('REQUEST RECEIVED', req)
-  const { nextUrl: url, geo } = req
-  url.searchParams.set('country', geo.country)
+  console.log('CONTEXT', context)
+  const { nextUrl: url } = req
+  url.searchParams.set('country', context.geo?.country || 'NZ')
   return NextResponse.rewrite(url)
 }
