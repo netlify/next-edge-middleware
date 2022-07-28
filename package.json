@@ -10,7 +10,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@netlify/build": "^26.5.3",
+    "@netlify/build": "^27.6.0",
     "@netlify/functions": "^1.0.0",
     "@netlify/plugin-nextjs": "^4.13.1"
   }
