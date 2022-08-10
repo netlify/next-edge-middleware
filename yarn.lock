@@ -145,15 +145,15 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/build@^27.11.1":
-  version "27.11.1"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-27.11.1.tgz#ba78bc470f1cecd2767c80129c359b61ca866822"
-  integrity sha512-H8sCablM8sItxwKQqSC+rY+3yc0EI3rR8hKEuLjFLmmZkWNcYEdblMEeiaQjUlXDaSmPcAb21+OeuxlnpfZKQg==
+"@netlify/build@^27.11.2":
+  version "27.11.2"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-27.11.2.tgz#3550b039d95d13feac22a65c291438d462a79daa"
+  integrity sha512-gS3Po2LLUmJMnyZFrcEcqo+yuKdjBlWteyWINMCIZWx+KskpKOotRPeN0c5CyOBNjEIsnVLnEeQpsiCro0v7Xg==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/cache-utils" "^4.0.0"
     "@netlify/config" "^18.1.2"
-    "@netlify/edge-bundler" "^1.12.0"
+    "@netlify/edge-bundler" "^1.12.1"
     "@netlify/functions-utils" "^4.2.3"
     "@netlify/git-utils" "^4.0.0"
     "@netlify/plugins-list" "^6.36.0"
@@ -251,10 +251,10 @@
     validate-npm-package-name "^4.0.0"
     yargs "^17.3.1"
 
-"@netlify/edge-bundler@^1.12.0":
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-1.12.0.tgz#19d943f3fc59cf764f1b8be2ec5448d84c152874"
-  integrity sha512-0RAFxlPhkARBWIlN/C7hbN8yN1Kh2i/BMRmZJnpfano1aChGtZAHB3hB6VvAJcAaN1GFTCeOWB7Z+u8rEkuZdw==
+"@netlify/edge-bundler@^1.12.1":
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-1.12.1.tgz#43e1a573028368f807372ac4ea1f5ff100105052"
+  integrity sha512-yROvOGpapj79wJIIjtuGX/p82gZt2K8on13cTg1tfCGRrGOvE+RNSKi5XuAXpocceyDJXnEyETXsc0mdpMMdhg==
   dependencies:
     common-path-prefix "^3.0.0"
     del "^6.0.0"
@@ -264,6 +264,7 @@
     node-fetch "^3.1.1"
     node-stream-zip "^1.15.0"
     p-wait-for "^4.1.0"
+    path-key "^4.0.0"
     semver "^7.3.5"
     tmp-promise "^3.0.3"
     uuid "^8.3.2"
