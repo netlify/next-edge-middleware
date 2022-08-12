@@ -443,10 +443,10 @@
   resolved "https://registry.yarnpkg.com/@netlify/open-api/-/open-api-2.11.0.tgz#0086ce3cf13976cffe8e2b01bff869dd819cadb8"
   integrity sha512-ni6R1xdR8EtH0iB8ixGt9ocuboW+Q8eN4ilTX8lfNHS6Y6Q2S+O/aB2n1BnAgv39wopeQsQ2meL9vfEePURl7w==
 
-"@netlify/plugin-nextjs@^4.14.2":
-  version "4.14.2"
-  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-4.14.2.tgz#813f3a06659a22a6f5072853fce921fc9ba853e3"
-  integrity sha512-Z6JJH0nXyWzxOrlakwhvoyq4w2MtP9g9cJoGu4WsYplI1gBprSu7lGGKwyGOCMyZjtI/vy2OnJg9xnndHoYDbA==
+"@netlify/plugin-nextjs@^4.15.0":
+  version "4.15.0"
+  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-4.15.0.tgz#73da17c6c3e3c8761bc36477dc6a70c3cc224b41"
+  integrity sha512-ZpslmVEJctrUI0ZxFTeCuK9QcjkHIeRG1Q7DUB80dwoKJBGou0e0J1BwzVYYVPTBhEWXJqtFqATJ2fYWnKY6OA==
   dependencies:
     "@netlify/functions" "^1.0.0"
     "@netlify/ipx" "^1.2.0"
