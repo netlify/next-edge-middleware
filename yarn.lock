@@ -411,6 +411,13 @@
   dependencies:
     is-promise "^4.0.0"
 
+"@netlify/functions@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-1.1.0.tgz#952fb83080a3da2ca0f5f793d466fd3e47910106"
+  integrity sha512-XUFC5nt4iLMrDK+6WjYrDOW9h6XGIQlEk3o++xglFbDKc6dsP+k6rjfz3vl0w8S9Oiosxj3uLaPW18szJc1UgA==
+  dependencies:
+    is-promise "^4.0.0"
+
 "@netlify/git-utils@^4.0.0":
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/@netlify/git-utils/-/git-utils-4.1.1.tgz#5e48e1073ba20916ab03f936330640ab6a64b549"
