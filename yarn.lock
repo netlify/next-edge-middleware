@@ -145,20 +145,20 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/build@^27.11.4":
-  version "27.11.4"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-27.11.4.tgz#d00b6f0f2806d1782aa187721a4e192b6a36de8f"
-  integrity sha512-zUbvdN21VGQwg/jVmdpk0qgysUUtBf25hCBxrATt55g3EJVE0ygEm/wX2HV9JjO8OqpydmaaaDdRNmD29aNMAw==
+"@netlify/build@^27.11.5":
+  version "27.11.5"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-27.11.5.tgz#ab5cac3672673adeb14812aba4dbd3fff9e4e6db"
+  integrity sha512-d/EqdcVZzi/EA0rJ21xKvHqugDx2gl3h1mpzk/HQpAmvGtgv+Tkj9W4oVYKyd8L2Pyx/oiFBNyhfNXdCEk3wbA==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/cache-utils" "^4.0.0"
     "@netlify/config" "^18.1.4"
     "@netlify/edge-bundler" "^1.12.1"
-    "@netlify/functions-utils" "^4.2.3"
+    "@netlify/functions-utils" "^4.2.4"
     "@netlify/git-utils" "^4.0.0"
     "@netlify/plugins-list" "^6.36.0"
     "@netlify/run-utils" "^4.0.0"
-    "@netlify/zip-it-and-ship-it" "5.13.4"
+    "@netlify/zip-it-and-ship-it" "^5.13.5"
     "@sindresorhus/slugify" "^2.0.0"
     "@types/node" "^16.0.0"
     ajv "^8.11.0"
@@ -395,12 +395,12 @@
     "@netlify/esbuild-windows-64" "0.14.25"
     "@netlify/esbuild-windows-arm64" "0.14.25"
 
-"@netlify/functions-utils@^4.2.3":
-  version "4.2.3"
-  resolved "https://registry.yarnpkg.com/@netlify/functions-utils/-/functions-utils-4.2.3.tgz#1d940dde41e9b03363f793b014dcdaf03131460d"
-  integrity sha512-i4Pkp24hgb4XJARhG5GCExdzw7vPE5Is+LIekr6/amkuqLbEym3BVZc/f64B7DY1clSeom+Fq5Gw5jfc1uYRzg==
+"@netlify/functions-utils@^4.2.4":
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/@netlify/functions-utils/-/functions-utils-4.2.4.tgz#d8cc2d703eeab79e58d5c1ffeddd70b44cc7394f"
+  integrity sha512-+Uw9qO6lIshJrcieriAluGhjFM8JsyNFe5TGxkTssfUeel/+RIrIG5RMslrBoEk8HUKL+4HQDbZRoI6DtWlwsw==
   dependencies:
-    "@netlify/zip-it-and-ship-it" "5.13.4"
+    "@netlify/zip-it-and-ship-it" "^5.13.5"
     cpy "^8.1.0"
     path-exists "^5.0.0"
 
@@ -477,10 +477,10 @@
   dependencies:
     execa "^6.0.0"
 
-"@netlify/zip-it-and-ship-it@5.13.4":
-  version "5.13.4"
-  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-5.13.4.tgz#e689495557e3e01837edff28c67ad48666e96c00"
-  integrity sha512-sbjgepmvZLl4BcGBY8PUkC/zcvGcJp8YdUe2hM+7d44KzGb3GTznekNaqlVfoYi0RIK3h0S49SBI+tsBiz9jgA==
+"@netlify/zip-it-and-ship-it@^5.13.5":
+  version "5.13.5"
+  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-5.13.5.tgz#38efae9c2c6ce68b8b264ae4e72e826ba488d866"
+  integrity sha512-oVXGtGwUQqEDBRApwKgqfauuzD+FhyxKGcwERF2fZLOiH24NoBcskaNDW6TCJmBj3hKiVCgmp69hapvjMVibFQ==
   dependencies:
     "@babel/parser" "7.16.8"
     "@netlify/binary-info" "^1.0.0"
