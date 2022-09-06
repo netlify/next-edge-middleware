@@ -145,20 +145,20 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/build@^27.16.1":
-  version "27.16.1"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-27.16.1.tgz#32c9580717f5318053ed7fee18d471106238f61d"
-  integrity sha512-hXOivv/zCd/xPSL7XaqHvnn6GpXUSkztis9QfawLa39W6X01gDj2bXfQBW+cPxTT6S/UaGz70rwthPW9431pOQ==
+"@netlify/build@^27.16.2":
+  version "27.16.2"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-27.16.2.tgz#f3439e8091a74fa49d95076e3caf20457d0496c3"
+  integrity sha512-5FqxeBVsivGW79qOVwIT7var3vq7pHtXbz/0VwQ2ZM6TNJqegUMMJ/elI2BhcMAcIor68lwkbaemK4V+Zf7iAA==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/cache-utils" "^4.0.0"
     "@netlify/config" "^18.2.3"
     "@netlify/edge-bundler" "^1.14.1"
-    "@netlify/functions-utils" "^4.2.5"
+    "@netlify/functions-utils" "^4.2.6"
     "@netlify/git-utils" "^4.0.0"
     "@netlify/plugins-list" "^6.41.0"
     "@netlify/run-utils" "^4.0.0"
-    "@netlify/zip-it-and-ship-it" "^6.0.0"
+    "@netlify/zip-it-and-ship-it" "^7.0.0"
     "@sindresorhus/slugify" "^2.0.0"
     "@types/node" "^16.0.0"
     ajv "^8.11.0"
@@ -396,12 +396,12 @@
     "@netlify/esbuild-windows-64" "0.14.25"
     "@netlify/esbuild-windows-arm64" "0.14.25"
 
-"@netlify/functions-utils@^4.2.5":
-  version "4.2.5"
-  resolved "https://registry.yarnpkg.com/@netlify/functions-utils/-/functions-utils-4.2.5.tgz#5e9b8603fdfa2523720e26703e659029372f9c1f"
-  integrity sha512-sa8TAD35xO/6q3YSpqlObOSfC25n0JT6DV+j3WaZ5NCSXAdlZJD+pT02pudputwstfMPJtw7GJg3buIiTyGulQ==
+"@netlify/functions-utils@^4.2.6":
+  version "4.2.6"
+  resolved "https://registry.yarnpkg.com/@netlify/functions-utils/-/functions-utils-4.2.6.tgz#cc438fbd24caf7c94732c488bb4fa4fc3f48f882"
+  integrity sha512-vhC4NCglKkvZ0uXXnN6hfaViDPz08PMuIFN26ca6Ji8yX4e4M8u0QR1Bsvq2fMIpVZ3atkiWrgne8in1sBZ+zA==
   dependencies:
-    "@netlify/zip-it-and-ship-it" "^6.0.0"
+    "@netlify/zip-it-and-ship-it" "^7.0.0"
     cpy "^8.1.0"
     path-exists "^5.0.0"
 
@@ -480,15 +480,15 @@
   dependencies:
     execa "^6.0.0"
 
-"@netlify/zip-it-and-ship-it@^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-6.0.0.tgz#63a0fc0e9eeb023b4edae94f3e86d3458e2e2ef8"
-  integrity sha512-5nxAeUwQ6ftlnlRShRa7oY+RPiYBRH2qMmTR6RwsBYzUBUzoTgdb+X8tOnO4FFAKndXzzjJrO/ubp+YMeOKSbg==
+"@netlify/zip-it-and-ship-it@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-7.0.0.tgz#448322e09426464464d5b22155ad69fe112b797e"
+  integrity sha512-9/5Iy8YC/jJwMG3KpDXbRQrdLDIS6mUOUZrbwH17+uVQlfdJDNoMWCkC8ABFIuClnuuQBhOI0sO9M7k/3KdJJg==
   dependencies:
     "@babel/parser" "7.16.8"
     "@netlify/binary-info" "^1.0.0"
     "@netlify/esbuild" "0.14.25"
-    "@vercel/nft" "^0.21.0"
+    "@vercel/nft" "^0.22.0"
     archiver "^5.3.0"
     common-path-prefix "^3.0.0"
     cp-file "^9.0.0"
@@ -805,10 +805,10 @@
     "@typescript-eslint/types" "5.31.0"
     eslint-visitor-keys "^3.3.0"
 
-"@vercel/nft@^0.21.0":
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/@vercel/nft/-/nft-0.21.0.tgz#e0715b1997cd7021a7c7c48b584ef2295fd4b810"
-  integrity sha512-hFCAETfI5cG8l5iAiLhMC2bReC5K7SIybzrxGorv+eGspIbIFsVw7Vg85GovXm/LxA08pIDrAlrhR6GN36XB/Q==
+"@vercel/nft@^0.22.0":
+  version "0.22.1"
+  resolved "https://registry.yarnpkg.com/@vercel/nft/-/nft-0.22.1.tgz#0d91d2a21e3a7f0b23ce1550da9870eac4942828"
+  integrity sha512-lYYZIoxRurqDOSoVIdBicGnpUIpfyaS5qVjdPq+EfI285WqtZK3NK/dyCkiyBul+X2U2OEhRyeMdXPCHGJbohw==
   dependencies:
     "@mapbox/node-pre-gyp" "^1.0.5"
     acorn "^8.6.0"
