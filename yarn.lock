@@ -150,15 +150,15 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/build@^27.18.0":
-  version "27.18.0"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-27.18.0.tgz#786c1ad8b6f2e96c1d37dc01773b5db0f5d1c30c"
-  integrity sha512-BdISTotPgOnOYLLzkxMQAC03hCYUnVgR6zcWer0+sO7rB0QEfL7sw+PFDCsT4EYvL16X90TYqupoa/1cUY7VCw==
+"@netlify/build@^27.18.1":
+  version "27.18.1"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-27.18.1.tgz#7ddad4f4b5d657da6119bfbb3f30fb69786f5a4a"
+  integrity sha512-FLTWRom+YRdyUPpGxGex7X24c4G3S6fT8nHBjkMurGssZre9MXeTbTkSmZmfuK+ZUgt/OoUPfIzAEETfWJPXag==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/cache-utils" "^4.0.0"
     "@netlify/config" "^18.2.3"
-    "@netlify/edge-bundler" "^2.0.1"
+    "@netlify/edge-bundler" "^2.0.5"
     "@netlify/functions-utils" "^4.2.8"
     "@netlify/git-utils" "^4.0.0"
     "@netlify/plugins-list" "^6.44.0"
@@ -256,16 +256,17 @@
     validate-npm-package-name "^4.0.0"
     yargs "^17.3.1"
 
-"@netlify/edge-bundler@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-2.0.1.tgz#f5354cb1103d8eca5974fc828f949095928c2d1e"
-  integrity sha512-BMe99dnrmhf6qzY4ppym8SjT3s7SxgGPA1O9LW0+4hzssOQZJlJOQ78xhyGzZHuZTrDTccRom5hNmsBrWAd2nw==
+"@netlify/edge-bundler@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-2.0.5.tgz#60057269bfa25707f82a64d96f9bcb921a6ca18c"
+  integrity sha512-HXnc9PnV4uO8JJsqVPqor6ujnYP27grTzR6EhBvM0VkSPftYt8CX5Utk/QyWEhTgZL7/9Iqe2tBJ5eAypsvtwA==
   dependencies:
     "@import-maps/resolve" "^1.0.1"
     common-path-prefix "^3.0.0"
     del "^6.0.0"
     env-paths "^3.0.0"
     execa "^6.0.0"
+    find-up "^6.3.0"
     glob-to-regexp "^0.4.1"
     node-fetch "^3.1.1"
     node-stream-zip "^1.15.0"
@@ -274,7 +275,7 @@
     path-key "^4.0.0"
     semver "^7.3.5"
     tmp-promise "^3.0.3"
-    uuid "^8.3.2"
+    uuid "^9.0.0"
 
 "@netlify/esbuild-android-64@0.14.25":
   version "0.14.25"
@@ -5047,10 +5048,15 @@ util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-uuid@^8.0.0, uuid@^8.3.2:
+uuid@^8.0.0:
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+
+uuid@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.0.tgz#592f550650024a38ceb0c562f2f6aa435761efb5"
+  integrity sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==
 
 v8-compile-cache-lib@^3.0.1:
   version "3.0.1"
