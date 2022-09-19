@@ -150,15 +150,15 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/build@^27.18.2":
-  version "27.18.2"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-27.18.2.tgz#b8b58b6cc763285d86cd017e7a0aed3aff722ce9"
-  integrity sha512-cVUn4ifkEWxk0AnDs8GTittC0xy1S3DGZMvk6IVALLIc3kXmCqO/A71CnWvqCrcmYF2fDZB0prLumw7bVB9FLQ==
+"@netlify/build@^27.18.3":
+  version "27.18.3"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-27.18.3.tgz#8dfefec03afd770b006f34d3a04bcc56341b2a96"
+  integrity sha512-Q4IKNpLhJFezhyMb+jg7OIhS2ANOB9akLt58JX4A/XStY+42jQvuzsNG/2EcDcmshjJP5fob50GyqrzpsLG3Aw==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/cache-utils" "^4.0.0"
     "@netlify/config" "^18.2.3"
-    "@netlify/edge-bundler" "^2.0.5"
+    "@netlify/edge-bundler" "^2.1.0"
     "@netlify/functions-utils" "^4.2.9"
     "@netlify/git-utils" "^4.0.0"
     "@netlify/plugins-list" "^6.44.0"
@@ -256,10 +256,10 @@
     validate-npm-package-name "^4.0.0"
     yargs "^17.3.1"
 
-"@netlify/edge-bundler@^2.0.5":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-2.0.5.tgz#60057269bfa25707f82a64d96f9bcb921a6ca18c"
-  integrity sha512-HXnc9PnV4uO8JJsqVPqor6ujnYP27grTzR6EhBvM0VkSPftYt8CX5Utk/QyWEhTgZL7/9Iqe2tBJ5eAypsvtwA==
+"@netlify/edge-bundler@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-2.1.0.tgz#d87efa85a8e3f4cc6246879ec8a882ec1b4c8a45"
+  integrity sha512-yHb4xIZi1qiDtrL7Th7zJkJDBMmrbtRNVGllqq1hLLqDhugEtAz9AVGp3huHgl2F9D5m0l0HbpyWKG+SnZ+54A==
   dependencies:
     "@import-maps/resolve" "^1.0.1"
     common-path-prefix "^3.0.0"
