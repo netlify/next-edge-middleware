@@ -150,10 +150,10 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/build@^27.18.4":
-  version "27.18.4"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-27.18.4.tgz#c8f1fb73ead26618b106986d52de4f66947a7bea"
-  integrity sha512-3DXTuv5X9FWI+6G7uI29GlxkatMqgNyPX9Ey2BiYIi2CSUjILuCealVW+Qo3SV0+afty3teptaUfMQSKa1OLHg==
+"@netlify/build@^27.18.5":
+  version "27.18.5"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-27.18.5.tgz#bf8d73b71721ad7ffe2a84de1130306cfcadaa77"
+  integrity sha512-SmLOcgp/VJiCe9ft/8oUmCdPBOvQ/k7G4Y0fUb1BXusRePdultUDzC0pHFybNa/YyIsA4HDTAtGsTAk8GJpu7g==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/cache-utils" "^4.0.0"
@@ -161,7 +161,7 @@
     "@netlify/edge-bundler" "^2.2.0"
     "@netlify/functions-utils" "^4.2.9"
     "@netlify/git-utils" "^4.0.0"
-    "@netlify/plugins-list" "^6.45.0"
+    "@netlify/plugins-list" "^6.46.0"
     "@netlify/run-utils" "^4.0.0"
     "@netlify/zip-it-and-ship-it" "^7.1.2"
     "@sindresorhus/slugify" "^2.0.0"
@@ -603,10 +603,10 @@
     slash "^3.0.0"
     tiny-glob "^0.2.9"
 
-"@netlify/plugins-list@^6.45.0":
-  version "6.45.0"
-  resolved "https://registry.yarnpkg.com/@netlify/plugins-list/-/plugins-list-6.45.0.tgz#3025505ca6b64bb3f345ea3f96d762a04cfb0aba"
-  integrity sha512-eFvBjP1o+ckujlV81GFDfnMOM9Vz4jeI/ZsRELLH7j1+GnGRrYcdG20THDJCS++l1bWEvX59PC2Je9eyD7fZFA==
+"@netlify/plugins-list@^6.46.0":
+  version "6.46.0"
+  resolved "https://registry.yarnpkg.com/@netlify/plugins-list/-/plugins-list-6.46.0.tgz#37ff4d0e564a42a5896b81f073cf6ed94d3d3737"
+  integrity sha512-kUX90Eacqko9ni3cepVZKXFTLmhdwES/HDRlMYxyUh+SmvXWRC+h43b11nA0/6M5PEPolUChQOZN9wZql6oJJw==
 
 "@netlify/run-utils@^4.0.0":
   version "4.0.1"
