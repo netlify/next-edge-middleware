@@ -150,14 +150,14 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/build@^27.20.5":
-  version "27.20.5"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-27.20.5.tgz#21f65e9d3ef3deb8a54a2f25797dc8b39122526a"
-  integrity sha512-VXAi90RO/ZjTa0BBCz+5EZJ40onsrFPYFWPnm/Y2lV2lujOnZauokNjyRJVrI5ZrcUpl+BwExO8/6HO6PlHHeA==
+"@netlify/build@^27.20.6":
+  version "27.20.6"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-27.20.6.tgz#afa76e2d779f6e4e602916a93aa68a3a2b15150a"
+  integrity sha512-GaGk61Kfah91MtON1No12aG2RVEqOjh6LA38C2DhByvc25Wd6GYL3RtL1Sd37EeVGHqmn4zuU3fFJDw1FbD5tQ==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/cache-utils" "^4.1.6"
-    "@netlify/config" "^18.2.5"
+    "@netlify/config" "^18.2.6"
     "@netlify/edge-bundler" "^2.7.0"
     "@netlify/functions-utils" "^4.2.11"
     "@netlify/git-utils" "^4.1.4"
@@ -226,10 +226,10 @@
     path-exists "^5.0.0"
     readdirp "^3.4.0"
 
-"@netlify/config@^18.2.5":
-  version "18.2.5"
-  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-18.2.5.tgz#d3742c8f3b3b08680071cc35b0e803d0748b8a6f"
-  integrity sha512-T5HGUwvL3vkokxpYKpRwqg/+Z4KNUn48VEv2i55tEPAEOvfLoL20CGCWJsap+aS8iQV5gFnp5B1+v0XDENnLaQ==
+"@netlify/config@^18.2.6":
+  version "18.2.6"
+  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-18.2.6.tgz#44d0750d08fdbd31e824349343b5472be47e1c04"
+  integrity sha512-fURxjm15NRXRZhumK+Z4VH3xp2U4iUMtkZzRCVHohoMCmPCO1CwHpE+yQ3KJ+Xlunoeq4/jCouTKuRBhVa0Y6w==
   dependencies:
     chalk "^5.0.0"
     cron-parser "^4.1.0"
@@ -244,7 +244,7 @@
     is-plain-obj "^4.0.0"
     js-yaml "^4.0.0"
     map-obj "^5.0.0"
-    netlify "^12.0.2"
+    netlify "^12.0.3"
     netlify-headers-parser "^6.0.3"
     netlify-redirect-parser "^13.0.6"
     omit.js "^2.0.2"
@@ -3106,6 +3106,11 @@ locate-path@^7.0.0, locate-path@^7.1.0:
   dependencies:
     p-locate "^6.0.0"
 
+lodash-es@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
+  integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
+
 lodash.deburr@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/lodash.deburr/-/lodash.deburr-4.1.0.tgz#ddb1bbb3ef07458c0177ba07de14422cb033ff9b"
@@ -3449,12 +3454,13 @@ netlify-redirect-parser@^13.0.6:
     path-exists "^5.0.0"
     toml "^3.0.0"
 
-netlify@^12.0.2:
-  version "12.0.2"
-  resolved "https://registry.yarnpkg.com/netlify/-/netlify-12.0.2.tgz#dcd7336230a9469fe1c3f7fd02c89a52efb83abb"
-  integrity sha512-2l3Y14aaHMLvdPTq5aF79f6hk7zxdqkP/NDGDDxTMSyGDK61oV/pOz/50Zd4x/Ik2mz0cmIBgbW3wzLoLOqrWA==
+netlify@^12.0.3:
+  version "12.0.3"
+  resolved "https://registry.yarnpkg.com/netlify/-/netlify-12.0.3.tgz#bc1173a61158dd2611bad419f47dcbac2b180fd8"
+  integrity sha512-7dX3EYTYq7qXIGnvKBC6CUShsfd42xVcRrAfXZhFeuX+pTIZLly6FcLwy4MpRIojXEcW9/brxtofIlPq0wXFOQ==
   dependencies:
     "@netlify/open-api" "^2.12.0"
+    lodash-es "^4.17.21"
     micro-api-client "^3.3.0"
     node-fetch "^3.0.0"
     omit.js "^2.0.2"
