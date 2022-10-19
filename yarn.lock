@@ -155,14 +155,14 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/build@^28.1.0":
-  version "28.1.0"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-28.1.0.tgz#c8a14cc417bb2ae959c18a971b4aefdba323c592"
-  integrity sha512-8ZP20OEK/6WNzwF9iox8+QcPv8jYkDIPsYkDIukHb/8IRkAzdMsVF5emPMdmAdR8R6Zma4iUSOoysZk8BCVKyg==
+"@netlify/build@^28.1.1":
+  version "28.1.1"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-28.1.1.tgz#2a8b02e920d5565e08fc1d9d24b9547c34867ec2"
+  integrity sha512-HOdcbXgrqe+wIq/1SjtsHvFvc3fuyOMF/XOvtvubZKG7yddj64WukheQl5HIeCacuE/vhaMTRqwaWFN6r+3CYw==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/cache-utils" "^5.0.1"
-    "@netlify/config" "^19.0.1"
+    "@netlify/config" "^19.0.2"
     "@netlify/edge-bundler" "^2.8.0"
     "@netlify/functions-utils" "^5.0.1"
     "@netlify/git-utils" "^5.0.1"
@@ -213,7 +213,7 @@
     typescript "^4.5.4"
     update-notifier "^5.0.0"
     uuid "^8.0.0"
-    yargs "^17.3.1"
+    yargs "^17.6.0"
 
 "@netlify/cache-utils@^5.0.1":
   version "5.0.1"
@@ -230,10 +230,10 @@
     path-exists "^5.0.0"
     readdirp "^3.4.0"
 
-"@netlify/config@^19.0.1":
-  version "19.0.1"
-  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-19.0.1.tgz#cd87a1ea6fe171b551c48d6fcc5bba97fc15bbe6"
-  integrity sha512-uDXRDHcyeFZ/OfSxn1xnBqO/HKXoeB42pK7wDGolLOHocZm37ez8uG3J8fp8tziHnSnGYAabLGqkQ8mJhZ4q8w==
+"@netlify/config@^19.0.2":
+  version "19.0.2"
+  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-19.0.2.tgz#540e8169c5dcea76ed7dc0b67808f62af2c417f1"
+  integrity sha512-uzu1P3EZHnGCHTkgJZz3TG/eTJe/aTlOTQI/Id/mhjEdBPl9zVDfypWK9CQg1RIVdkAhgSqrDjordnmDFWLOzQ==
   dependencies:
     chalk "^5.0.0"
     cron-parser "^4.1.0"
@@ -258,7 +258,7 @@
     toml "^3.0.0"
     tomlify-j0.4 "^3.0.0"
     validate-npm-package-name "^4.0.0"
-    yargs "^17.3.1"
+    yargs "^17.6.0"
 
 "@netlify/edge-bundler@^2.8.0":
   version "2.8.0"
@@ -1364,6 +1364,15 @@ cliui@^7.0.2:
   dependencies:
     string-width "^4.2.0"
     strip-ansi "^6.0.0"
+    wrap-ansi "^7.0.0"
+
+cliui@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/cliui/-/cliui-8.0.1.tgz#0c04b075db02cbfe60dc8e6cf2f5486b1a3608aa"
+  integrity sha512-BSeNnyus75C4//NQ9gQt1/csTXyo/8Sb+afLAkzAptFuMsod9HFokGNudZpi/oQV73hnVK+sR+5PVRMd+Dr7YQ==
+  dependencies:
+    string-width "^4.2.0"
+    strip-ansi "^6.0.1"
     wrap-ansi "^7.0.0"
 
 clone-response@^1.0.2:
@@ -5257,12 +5266,12 @@ yargs@^17.0.0:
     y18n "^5.0.5"
     yargs-parser "^21.0.0"
 
-yargs@^17.3.1:
-  version "17.4.1"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-17.4.1.tgz#ebe23284207bb75cee7c408c33e722bfb27b5284"
-  integrity sha512-WSZD9jgobAg3ZKuCQZSa3g9QOJeCCqLoLAykiWgmXnDo9EPnn4RPf5qVTtzgOx66o6/oqhcA5tHtJXpG8pMt3g==
+yargs@^17.6.0:
+  version "17.6.0"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-17.6.0.tgz#e134900fc1f218bc230192bdec06a0a5f973e46c"
+  integrity sha512-8H/wTDqlSwoSnScvV2N/JHfLWOKuh5MVla9hqLjK3nsfyy6Y4kDSYSvkU5YCUEPOSnRXfIyx3Sq+B/IWudTo4g==
   dependencies:
-    cliui "^7.0.2"
+    cliui "^8.0.1"
     escalade "^3.1.1"
     get-caller-file "^2.0.5"
     require-directory "^2.1.1"
