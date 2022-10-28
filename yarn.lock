@@ -155,14 +155,14 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/build@^28.1.4":
-  version "28.1.4"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-28.1.4.tgz#64f0d020c6df99b2f672f8a47c128df013727425"
-  integrity sha512-GuC09qYr06QNAqYxXyetfE6cRJtYUragl8jOz5I18V5QTqYkKThWeDbPIXXnE/fPiAs4jTG/2WZZWmGZ8QfbuA==
+"@netlify/build@^28.1.5":
+  version "28.1.5"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-28.1.5.tgz#46acb454ce08ca570803f9899a6f67a078548858"
+  integrity sha512-fCJIZlKys/VCP6w/T2+v/D0wnPmi0oIsCZxZfntN7CZqnAEh6eDtsbJgGcBMTMtV80umsO6Owz2kwmteW/gTOg==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/cache-utils" "^5.0.1"
-    "@netlify/config" "^19.1.0"
+    "@netlify/config" "^19.1.1"
     "@netlify/edge-bundler" "^3.0.1"
     "@netlify/functions-utils" "^5.0.1"
     "@netlify/git-utils" "^5.0.1"
@@ -230,10 +230,10 @@
     path-exists "^5.0.0"
     readdirp "^3.4.0"
 
-"@netlify/config@^19.1.0":
-  version "19.1.0"
-  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-19.1.0.tgz#58a17511d52cca7ec959809a274444338e73459b"
-  integrity sha512-ZBaU5MN6kp11NnxsSCj/WMxxkMFg3cktj7UV+JAnn0spI/UnOhCYWMFMh0GvTpw0gkwq98ZfWxUt4e0hGcQAQg==
+"@netlify/config@^19.1.1":
+  version "19.1.1"
+  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-19.1.1.tgz#82bf975a40467909a62c5f16521e9f66f12d4e59"
+  integrity sha512-xVHQZrkeLQ6hfOXwRpTuSixE2Sx25MERaKcePrNme6ZKZWcU9R4LTQmw9FEXzsUrCO+OnMm77PDk17FYNv63aw==
   dependencies:
     chalk "^5.0.0"
     cron-parser "^4.1.0"
@@ -250,7 +250,7 @@
     map-obj "^5.0.0"
     netlify "^13.0.1"
     netlify-headers-parser "^7.0.0"
-    netlify-redirect-parser "^14.0.0"
+    netlify-redirect-parser "^14.0.1"
     omit.js "^2.0.2"
     p-locate "^6.0.0"
     path-exists "^5.0.0"
@@ -2111,7 +2111,7 @@ fast-levenshtein@~2.0.6:
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
-fast-safe-stringify@^2.0.7:
+fast-safe-stringify@^2.0.7, fast-safe-stringify@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-2.1.1.tgz#c406a83b6e70d9e35ce3b30a81141df30aeba884"
   integrity sha512-W+KJc2dmILlPplD/H4K9l9LcAHAfPtP6BY84uVLXQ6Evcz9Lcg33Y2z1IVblT6xdY54PXYVHEv+0Wpq8Io6zkA==
@@ -3527,11 +3527,12 @@ netlify-headers-parser@^7.0.0:
     path-exists "^5.0.0"
     toml "^3.0.0"
 
-netlify-redirect-parser@^14.0.0:
-  version "14.0.0"
-  resolved "https://registry.yarnpkg.com/netlify-redirect-parser/-/netlify-redirect-parser-14.0.0.tgz#c4c716bb8c3b3c7376803b2d91bcfdb2c4965579"
-  integrity sha512-MEqZ6fwVp0CBhOeM5QNOTrUel3U3kDKBRM9MTXMLEgHCb96YuGfMPiCGmNzk98mzVsa2iG7nyp1IGItV203iJQ==
+netlify-redirect-parser@^14.0.1:
+  version "14.0.1"
+  resolved "https://registry.yarnpkg.com/netlify-redirect-parser/-/netlify-redirect-parser-14.0.1.tgz#e806a35d16e988ddd5920194a10392db7bb99700"
+  integrity sha512-VkS1Na7dnNNlxqzfpwOH7QNaGPslvD7Z6j4/XfMZ8jtwwrs7QRhEyVPOnEfOmbUDtnQXxJ2pltTZbo+n8BZMfg==
   dependencies:
+    fast-safe-stringify "^2.1.1"
     filter-obj "^3.0.0"
     is-plain-obj "^4.0.0"
     path-exists "^5.0.0"
