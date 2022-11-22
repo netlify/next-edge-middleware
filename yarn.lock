@@ -181,10 +181,10 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/build@^28.3.1":
-  version "28.3.1"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-28.3.1.tgz#8e3fb1fb0df6821847f2b9ecaef72c49a163af4c"
-  integrity sha512-Bf7QYL675hkIIweVzQZ09pWyj3j96NlfB9Z6C+ZGNbnXvpM5c3awIeB0RUTY6EHwvJXiV5RmTxICQTEZpt3g+Q==
+"@netlify/build@^28.4.0":
+  version "28.4.0"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-28.4.0.tgz#8110c35834a03c3b9bbbdff1b19e6d05514cc848"
+  integrity sha512-awN1edRTmmdDCjssUKZD+k5H4u0A8KpLLcr6bvenScC8fSXknnuo5YVPwukgdS/pdhBSEiUUEwHOTtNXfMeFbQ==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/cache-utils" "^5.0.2"
@@ -232,6 +232,7 @@
     string-width "^5.0.0"
     strip-ansi "^7.0.0"
     supports-color "^9.0.0"
+    terminal-link "^3.0.0"
     tmp-promise "^3.0.2"
     ts-node "^10.6.0"
     typescript "^4.8.4"
@@ -4868,7 +4869,7 @@ supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
-supports-color@^7.1.0:
+supports-color@^7.0.0, supports-color@^7.1.0:
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-7.2.0.tgz#1b7dcdcb32b8138801b3e478ba6a51caa89648da"
   integrity sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==
@@ -4879,6 +4880,14 @@ supports-color@^9.0.0:
   version "9.2.2"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-9.2.2.tgz#502acaf82f2b7ee78eb7c83dcac0f89694e5a7bb"
   integrity sha512-XC6g/Kgux+rJXmwokjm9ECpD6k/smUoS5LKlUCcsYr4IY3rW0XyAympon2RmxGrlnZURMpg5T18gWDP9CsHXFA==
+
+supports-hyperlinks@^2.2.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/supports-hyperlinks/-/supports-hyperlinks-2.3.0.tgz#3943544347c1ff90b15effb03fc14ae45ec10624"
+  integrity sha512-RpsAZlpWcDwOPQA22aCH4J0t7L8JmAvsCxfOSEwm7cQs3LshN36QaTkwd70DnBOXDWGssw2eUoc8CaRWT0XunA==
+  dependencies:
+    has-flag "^4.0.0"
+    supports-color "^7.0.0"
 
 tar-fs@^2.0.0, tar-fs@^2.1.1:
   version "2.1.1"
@@ -4912,6 +4921,14 @@ tar@^6.1.11:
     minizlib "^2.1.1"
     mkdirp "^1.0.3"
     yallist "^4.0.0"
+
+terminal-link@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/terminal-link/-/terminal-link-3.0.0.tgz#91c82a66b52fc1684123297ce384429faf72ac5c"
+  integrity sha512-flFL3m4wuixmf6IfhFJd1YPiLiMuxEc8uHRM1buzIeZPm22Au2pDqBJQgdo7n1WfPU1ONFGv7YDwpFBmHGF6lg==
+  dependencies:
+    ansi-escapes "^5.0.0"
+    supports-hyperlinks "^2.2.0"
 
 tiny-glob@^0.2.9:
   version "0.2.9"
