@@ -358,6 +358,11 @@
     "ufo" "^0.8.0"
     "unstorage" "^0.6.0"
 
+"@netlify/next@^1.4.1":
+  "integrity" "sha512-Nv2XtXc9vsGtnmA3Ue8HjF/DdJncUwRwFZUMTX2wAt7oZnnGj7vbpzm12IedHj2jPzfaJHRyWhCFx/Acnh2NVw=="
+  "resolved" "https://registry.npmjs.org/@netlify/next/-/next-1.4.1.tgz"
+  "version" "1.4.1"
+
 "@netlify/open-api@^2.12.0":
   "integrity" "sha512-1n9VvO/9qM7cRB5f7NgSNqeUrovM7j9WVAY7ZQ4LtQuXSquFmO9Fku7WrV3zAUC6v2Y62fxGyJ0fRllYz5uXLw=="
   "resolved" "https://registry.npmjs.org/@netlify/open-api/-/open-api-2.12.0.tgz"
@@ -3477,7 +3482,7 @@
     "p-wait-for" "^4.0.0"
     "qs" "^6.9.6"
 
-"next@12.3.4":
+"next@>=12.2.0", "next@12.3.4":
   "integrity" "sha512-VcyMJUtLZBGzLKo3oMxrEF0stxh8HwuW976pAzlHhI3t8qJ4SROjCrSh1T24bhrbjw55wfZXAbXPGwPt5FLRfQ=="
   "resolved" "https://registry.npmjs.org/next/-/next-12.3.4.tgz"
   "version" "12.3.4"
