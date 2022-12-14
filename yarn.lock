@@ -181,15 +181,15 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/build@^29.1.0":
-  version "29.1.0"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.1.0.tgz#b2de82f210281db679ebea0c1aba7f3cb7b14158"
-  integrity sha512-58AtZOym2gTB1T6p6+57uTMJaXGVulZ/gEwh35KPRwKmWj0UdsuLjJIgqCJU9Q9d1cLJw/DWx3vVrc1L7DcXxg==
+"@netlify/build@^29.1.1":
+  version "29.1.1"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.1.1.tgz#d91a3a555d052c156a1bca15d98373ff354770b8"
+  integrity sha512-L6dvCtAMhBe2U/Kwl6BJCSjwWX8blxcL1Wjdjk2idz75SeOQ4Y00eF+KMgkTThEPaIVkszPfH7CS5D0+TbfJ1Q==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/cache-utils" "^5.1.0"
     "@netlify/config" "^20.1.0"
-    "@netlify/edge-bundler" "5.5.0"
+    "@netlify/edge-bundler" "6.0.0"
     "@netlify/functions-utils" "^5.1.0"
     "@netlify/git-utils" "^5.1.0"
     "@netlify/plugins-list" "^6.59.0"
@@ -285,10 +285,10 @@
     validate-npm-package-name "^4.0.0"
     yargs "^17.6.0"
 
-"@netlify/edge-bundler@5.5.0":
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-5.5.0.tgz#bb2ea2d95cc062b45c6f78f154bdcb425d5cbde9"
-  integrity sha512-vVW+cEyD9637MLXq10livqLB9kT5IDuOeSx8mNYPBCuXQgmkNEvmZYr4khvRosymxaDXKkWM4yiwmT12+IfWZg==
+"@netlify/edge-bundler@6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-6.0.0.tgz#209bd2ae14a294cb7e2bb11ed5b9a3ed28bd61f8"
+  integrity sha512-7eqjVAO6fVskC67keJcKY8aqQ4BpwG/es2yN9iG/h8uoZ13BcqrvMSn5VeekFdHAWxMsFwJ/Namqp6vH9iarlw==
   dependencies:
     "@import-maps/resolve" "^1.0.1"
     ajv "^8.11.2"
@@ -301,6 +301,7 @@
     find-up "^6.3.0"
     get-port "^6.1.2"
     glob-to-regexp "^0.4.1"
+    jsonc-parser "^3.2.0"
     node-fetch "^3.1.1"
     node-stream-zip "^1.15.0"
     p-retry "^5.1.1"
@@ -3061,6 +3062,11 @@ json-schema-traverse@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz#ae7bcb3656ab77a73ba5c49bf654f38e6b6860e2"
   integrity sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==
+
+jsonc-parser@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/jsonc-parser/-/jsonc-parser-3.2.0.tgz#31ff3f4c2b9793f89c67212627c51c6394f88e76"
+  integrity sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==
 
 jsonfile@^6.0.1:
   version "6.1.0"
