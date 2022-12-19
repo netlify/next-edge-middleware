@@ -181,10 +181,10 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/build@^29.1.2":
-  version "29.1.2"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.1.2.tgz#02d2591f4df869f618f2d9044b9ed2e395adf5c9"
-  integrity sha512-mbk/aog+qED+jG+IgGZ10BZCnJmBmLP9V+uupnGPjfpsuFfsWGoNd7o6+cqA7AH5hNtjS2YU57hIceVAU3c8iQ==
+"@netlify/build@^29.1.3":
+  version "29.1.3"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.1.3.tgz#501b9a3f4b4475c7b6099e4bca267b3c01c45285"
+  integrity sha512-QwuuuRykwZ0zxy7EokBn7Nx33zFMnm095r+nwrwZwkFyfXw1o4etjzuBecG9KQ1rLnlhyff3cGst6UlXzl/LPg==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/cache-utils" "^5.1.0"
