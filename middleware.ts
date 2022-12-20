@@ -20,3 +20,7 @@ export async function middleware(req: NextRequest) {
 
   return response
 }
+
+export const config = {
+  matcher: '/',
+}
