@@ -181,20 +181,20 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/build@^29.5.8":
-  version "29.5.8"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.5.8.tgz#ea040f83cacbf99a092f89799ce120a8fcb6897a"
-  integrity sha512-bZQ38RY4yB+rvGG9JLr1vCvGFcT15IOkAUy+vhyPFNnT1XTkRZHW7KzwG0U+fyqADHR21FhQE9MGeja4o6ranQ==
+"@netlify/build@^29.6.0":
+  version "29.6.0"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.6.0.tgz#88dbb5d55d17bce204c8cc65d5165d8ab8a439ab"
+  integrity sha512-Fw5jeCTEDWc/cyoL0dBuk61mscuYlBysLSMAmzpjG8EJLSQkKFHRcc7utPiJjg/CfvR4L41WA4wdO7wgP/VT3Q==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/cache-utils" "^5.1.2"
     "@netlify/config" "^20.3.3"
     "@netlify/edge-bundler" "8.7.0"
-    "@netlify/functions-utils" "^5.1.9"
+    "@netlify/functions-utils" "^5.2.0"
     "@netlify/git-utils" "^5.1.0"
     "@netlify/plugins-list" "^6.65.0"
     "@netlify/run-utils" "^5.1.0"
-    "@netlify/zip-it-and-ship-it" "^8.7.0"
+    "@netlify/zip-it-and-ship-it" "^8.9.0"
     "@sindresorhus/slugify" "^2.0.0"
     ansi-escapes "^5.0.0"
     chalk "^5.0.0"
@@ -436,12 +436,12 @@
     "@netlify/esbuild-windows-64" "0.14.39"
     "@netlify/esbuild-windows-arm64" "0.14.39"
 
-"@netlify/functions-utils@^5.1.9":
-  version "5.1.9"
-  resolved "https://registry.yarnpkg.com/@netlify/functions-utils/-/functions-utils-5.1.9.tgz#765424091105f70f5abb50390a045999bda4e643"
-  integrity sha512-qgcFnnr0JmQG6SbeAhuWSGZJa4gtj5i1ESc79/wRRUC+ccgkX7xqv2/3UHOSw4uobgVBzonAfnDqmpwqbnrM2w==
+"@netlify/functions-utils@^5.2.0":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@netlify/functions-utils/-/functions-utils-5.2.0.tgz#8544ecffb74d30673557f9b24edc142242e27089"
+  integrity sha512-zPGrRuiXJcdUy2R6eIJMi5rai1Ss/2yTI/BZD7BMSjbjSILUGcTYPcPkcdQJbHuULNiwBUr6tARjD3tq1H81uw==
   dependencies:
-    "@netlify/zip-it-and-ship-it" "^8.7.0"
+    "@netlify/zip-it-and-ship-it" "^8.9.0"
     cpy "^8.1.0"
     path-exists "^5.0.0"
 
@@ -524,10 +524,10 @@
   dependencies:
     execa "^6.0.0"
 
-"@netlify/zip-it-and-ship-it@^8.7.0":
-  version "8.7.0"
-  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-8.7.0.tgz#9eb49fc17e454f6f681548d67cddfc0ed4ea5a17"
-  integrity sha512-YPcftbNoWohCp84mwngFUdJfDV2LguOgq9yZhs3fjVw8KJmngYH9V4xpedygbXRtlQuFjHjnnau+UwxQRYDCNg==
+"@netlify/zip-it-and-ship-it@^8.9.0":
+  version "8.9.0"
+  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-8.9.0.tgz#cbe17c053481437afd72bfe38920acd92b3a2fd1"
+  integrity sha512-+IhUwI+DahKGWeDrMP+63eNaydFzvmgm7E+JpxgidWOmOSZJNAeVzaWYXvvwZI09ahgh40Foz8cQlTMXMheRMA==
   dependencies:
     "@babel/parser" "7.16.8"
     "@netlify/binary-info" "^1.0.0"
@@ -548,7 +548,7 @@
     junk "^4.0.0"
     locate-path "^7.0.0"
     merge-options "^3.0.4"
-    minimatch "^6.0.0"
+    minimatch "^7.0.0"
     normalize-path "^3.0.0"
     p-map "^5.0.0"
     path-exists "^5.0.0"
@@ -3171,10 +3171,10 @@ minimatch@^5.0.1:
   dependencies:
     brace-expansion "^2.0.1"
 
-minimatch@^6.0.0:
-  version "6.1.5"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-6.1.5.tgz#61adaa90e59b29022fd8e326364f0336e4f9282d"
-  integrity sha512-2/WxnHMkH7qFS+pG8ibLN5GZdx5Y0aLlgFSghaKRUpkeEmC85wZRb/xDvj9jv601KdNOS2G/nNqj2h6k42yxBQ==
+minimatch@^7.0.0:
+  version "7.4.1"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-7.4.1.tgz#166705f9417985ba5149f2dbf2fa50c29832913b"
+  integrity sha512-Oz1iPEP+MGl7KS3SciLsLLcuZ7VsBfb7Qrz/jYt/s/sYAv272P26HSLz2f77Y6hzTKXiBi6g765fqpEDNc5fJw==
   dependencies:
     brace-expansion "^2.0.1"
 
