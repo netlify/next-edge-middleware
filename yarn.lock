@@ -181,15 +181,15 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/build@^29.6.4":
-  version "29.6.4"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.6.4.tgz#e568003ef9b5ac806f044337bb398f5cbef313b2"
-  integrity sha512-oxxkvlbhU94PBs0tOpXQsbpTH8NPrm3WQVegsn7/TDhX29aUXsJXEopjb/wRmW6BKHFYenTFF8NJk65BSKfDYg==
+"@netlify/build@^29.6.5":
+  version "29.6.5"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.6.5.tgz#e657e6a6eae1e92d190bcff3eba402eb296b5101"
+  integrity sha512-BRbNFru4CMKWVuiijhTAcP9IIVceeYjtufpU0nQx51Yj++VpBWToF9MXWaCKEyKk9r99ZeQBQvz2/cjXB9JiNQ==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/cache-utils" "^5.1.2"
     "@netlify/config" "^20.3.3"
-    "@netlify/edge-bundler" "8.9.0"
+    "@netlify/edge-bundler" "8.11.0"
     "@netlify/framework-info" "^9.8.5"
     "@netlify/functions-utils" "^5.2.0"
     "@netlify/git-utils" "^5.1.0"
@@ -284,10 +284,10 @@
     validate-npm-package-name "^4.0.0"
     yargs "^17.6.0"
 
-"@netlify/edge-bundler@8.9.0":
-  version "8.9.0"
-  resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-8.9.0.tgz#44e3d4344d465e30b12398ffa7ef3d66ab290ea6"
-  integrity sha512-ViBKtWk8iEgUF+LstrTdkGiygd4r+fpEPEZX6PAdf2A4xGymNM/HTPptx6yjRqNvAPaYEjqCLGO6cTt93YmlAA==
+"@netlify/edge-bundler@8.11.0":
+  version "8.11.0"
+  resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-8.11.0.tgz#ae214ad51b7359410b18a8e19eebc35bffa89b77"
+  integrity sha512-Hex57i1Tyb7kDd1q2e6dvpzYonFQSRRCP/INFnrjaaRgjzdQzEA5Y6PQIuCwbN33kI3G8V1ZNnc1gpJPuPEO7w==
   dependencies:
     "@import-maps/resolve" "^1.0.1"
     ajv "^8.11.2"
@@ -300,6 +300,7 @@
     find-up "^6.3.0"
     get-port "^6.1.2"
     glob-to-regexp "^0.4.1"
+    is-path-inside "^4.0.0"
     jsonc-parser "^3.2.0"
     node-fetch "^3.1.1"
     node-stream-zip "^1.15.0"
