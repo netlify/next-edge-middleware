@@ -20,7 +20,7 @@ export default function Home({ banner }) {
         <Image
           width={1500}
           height={1500}
-          src="https://assets.ctfassets.net/bmlje59etcpz/2gqHEDgkbhV2hM38iEqC7R/a226a75847f69645dda543d54e176967/photo-1513735492246-483525079686.avif"
+          src="https://images.ctfassets.net/bmlje59etcpz/3wcAuly1CafoUjTXmtJsmM/3b2a3f9b22df86080c72b773387fad63/km-command.png"
           alt="Picture of Porto"
         />
       </div>
