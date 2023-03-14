@@ -18,8 +18,8 @@ export default function Home({ banner }) {
       <p id="content">Here's an image for you!</p>
       <div className="image-wrapper">
         <Image
-          width={500}
-          height={500}
+          width={1000}
+          height={1000}
           src="https://images.unsplash.com/photo-1513735492246-483525079686"
           alt="Picture of Porto"
         />
