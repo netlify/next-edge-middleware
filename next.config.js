@@ -2,8 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['flagcdn.com', 'aomediacodec.github.io'],
-    formats: ['image/avif', 'image/webp'],
+    domains: ['flagcdn.com', 'images.unsplash.com'],
+    formats: ['image/avif'],
   },
 }
 
