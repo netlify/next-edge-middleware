@@ -18,8 +18,8 @@ export default function Home({ banner }) {
       <p id="content">Here's an image for you!</p>
       <div className="image-wrapper">
         <Image
-          width={1500}
-          height={1500}
+          width={50}
+          height={50}
           src="https://images.ctfassets.net/bmlje59etcpz/3wcAuly1CafoUjTXmtJsmM/3b2a3f9b22df86080c72b773387fad63/km-command.png"
           alt="Picture of Porto"
         />
