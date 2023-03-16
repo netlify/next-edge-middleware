@@ -18,9 +18,9 @@ export default function Home({ banner }) {
       <p id="content">Here's an image for you!</p>
       <div className="image-wrapper">
         <Image
-          width={50}
-          height={50}
-          src="https://images.ctfassets.net/bmlje59etcpz/3wcAuly1CafoUjTXmtJsmM/3b2a3f9b22df86080c72b773387fad63/km-command.png"
+          width={1000}
+          height={1000}
+          src="https://app.thefeedfactory.nl/api/assets/63d7ade92b50291e1f8f2158/pitch-deck-training.jpg"
           alt="Picture of Porto"
         />
       </div>
