@@ -482,10 +482,10 @@
     moize "^6.1.3"
     path-exists "^5.0.0"
 
-"@netlify/ipx@^1.3.3":
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/@netlify/ipx/-/ipx-1.3.3.tgz#db28352ee1ed86d0b991cb8236f64a4dfbe70b8c"
-  integrity sha512-2rDdCGPDPW7cyJr57rwfvpouOJx34CLDgfa2yfqTKvPzqCMOqkCi1PN/rHGuvJ/k5trZ8rxmWnnZyEbeQaZcqA==
+"@netlify/ipx@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@netlify/ipx/-/ipx-1.4.0.tgz#8bc77ef84f36a0cfead3ab49f68e8126c474edd9"
+  integrity sha512-Ibqg1W41EVMHNT/W6JSDUyxjhcxsbEL9vL9ZaNjn9tVKnDYxJ8JqRTwSbzfns+K+M3FLqoC4PLW32qW+vT1pKQ==
   dependencies:
     "@netlify/functions" "^1.4.0"
     etag "^1.8.1"
@@ -503,14 +503,14 @@
   resolved "https://registry.yarnpkg.com/@netlify/open-api/-/open-api-2.15.1.tgz#2ea4c5c29144c23526e9f4491ff21ee02760e9c1"
   integrity sha512-6OhUj74GNnj8hydQbbnbj2emYPwqRTZ1D5IfhQ3GXePjLB2xgQaNacMiKFXQ77Bqb2PVIxwkvYGsX0Sg3NjIKQ==
 
-"@netlify/plugin-nextjs@^4.33.0":
-  version "4.33.0"
-  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-4.33.0.tgz#459e34a074756171f227154b2705421b33ced186"
-  integrity sha512-Q7fgbbYn6e7yc22DqnukVhq0ObxIuxzs4oAEtgZogH4NxPDjaGPrT9ET9lcbFAbZjDRW7qnPDhwE9bhMTMT2RQ==
+"@netlify/plugin-nextjs@^4.34.0":
+  version "4.34.0"
+  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-4.34.0.tgz#4524ad8cecc9056f6c7e0f5e4611888b84ae5dc1"
+  integrity sha512-pXD1Sebm43ZaDmz6Yrzpx0/s6wRK94n0c/O2VBCi2f3XD257LnHXQ3ZqoXoP9AIu/225ljgbDSB0GWJIQ7/LRA==
   dependencies:
     "@netlify/esbuild" "0.14.39"
     "@netlify/functions" "^1.4.0"
-    "@netlify/ipx" "^1.3.3"
+    "@netlify/ipx" "^1.4.0"
     "@vercel/node-bridge" "^2.1.0"
     chalk "^4.1.2"
     chokidar "^3.5.3"
