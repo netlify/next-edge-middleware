@@ -20,8 +20,8 @@ export default function About({ banner }) {
         <Image
           width={500}
           height={300}
-          src="https://images.pexels.com/photos/6949272/pexels-photo-6949272.jpeg"
-          alt="Picture of Porto"
+          src="https://app.thefeedfactory.nl/api/assets/63d7ade92b50291e1f8f2158/pitch-deck-training.jpg"
+          alt="Picture"
         />
       </div>
     </div>
