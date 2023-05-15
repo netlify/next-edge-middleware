@@ -508,13 +508,13 @@
   resolved "https://registry.yarnpkg.com/@netlify/open-api/-/open-api-2.17.1.tgz#6b2b363bc0559fd891334eb8968af91f5e3fa464"
   integrity sha512-ShK63cGThr13FHbEKTr71N1wtqWo5KvPBgWM0JH3efXKts7cVuapFlfHhr2l37kyMLcPVH7yYjH0ioakAiaFuA==
 
-"@netlify/plugin-nextjs@^4.36.1":
-  version "4.36.1"
-  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-4.36.1.tgz#2bfb1960d377dad6a34bbdab46f9599ec7682520"
-  integrity sha512-e7vmZht8OFWTueiCcMyp//u1sXYjGfjturUlh0wGjynvdFRBpYhJAl85gToRJGTvAthwJNGq9aLcgBuJWRMRIg==
+"@netlify/plugin-nextjs@^4.37.0":
+  version "4.37.0"
+  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-4.37.0.tgz#f3c3e1d4fa33797dddd7aff145231c5339d63627"
+  integrity sha512-2CZ/B5aMjbiBr7rGCbLVf6LwZkqC8fkiZtntQMH/uP2Fa6F8HmKL+X32q3As3KL76bqe12kxTcoUidXfWx2lLg==
   dependencies:
     "@netlify/esbuild" "0.14.39"
-    "@netlify/functions" "^1.4.0"
+    "@netlify/functions" "^1.6.0"
     "@netlify/ipx" "^1.4.0"
     "@vercel/node-bridge" "^2.1.0"
     chalk "^4.1.2"
