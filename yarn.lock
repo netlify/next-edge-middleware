@@ -49,11 +49,16 @@
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.16.8.tgz#61c243a3875f7d0b0962b0543a33ece6ff2f1f17"
   integrity sha512-i7jDUfrVBWc+7OKcBzEe5n7fbv3i2fWtxKzzCvOjnzSxMfWMigAhtfJ7qzZNGFNMsCCd67+uz553dYKWXPvCKw==
 
-"@babel/parser@^7.21.8", "@babel/parser_latest@npm:@babel/parser@7.21.8":
+"@babel/parser@^7.21.8":
   name "@babel/parser_latest"
   version "7.21.8"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.21.8.tgz#642af7d0333eab9c0ad70b14ac5e76dbde7bfdf8"
   integrity sha512-6zavDGdzG3gUqAdWvlLFfk+36RilI+Pwyuuh7HItyeScCWP3k6i8vKclAQ0bM/0y/Kz/xiwvxhMv9MgTJP5gmA==
+
+"@babel/parser_latest@npm:@babel/parser@7.22.4":
+  version "7.22.4"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.22.4.tgz#a770e98fd785c231af9d93f6459d36770993fb32"
+  integrity sha512-VLLsx06XkEYqBtE5YGPwfSGwfrjnyPP5oiGty3S8pQLFDFLaS8VwWSIxkTXpcvr5zeYLE6+MBNl2npl/YnfofA==
 
 "@bugsnag/browser@^7.16.2":
   version "7.16.2"
@@ -182,21 +187,21 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/build@^29.12.0":
-  version "29.12.0"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.12.0.tgz#65de97020d004078c0ff224013b7fdc529a1fe63"
-  integrity sha512-ekpY0VE0JCWvmka8fknBi4/srANmoFf42rZUMSQ/8mnM7DT+/5+WO36PyKoiNY2l0RzmMvnvt5RUqVZyVBde5w==
+"@netlify/build@^29.12.1":
+  version "29.12.1"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.12.1.tgz#1d28adcc7dec9a05211eadd2704aa845a26fadde"
+  integrity sha512-ywXdJsCV/C+uBFTRM8Tc22gxd6E8cq0qbLMOAbID6N3BYKx6AFMaL8DkMFNmQOAYgb9AEfecRTAHmoFLBo/tVg==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/cache-utils" "^5.1.5"
     "@netlify/config" "^20.4.4"
-    "@netlify/edge-bundler" "8.16.0"
-    "@netlify/framework-info" "^9.8.8"
-    "@netlify/functions-utils" "^5.2.9"
+    "@netlify/edge-bundler" "8.16.1"
+    "@netlify/framework-info" "^9.8.9"
+    "@netlify/functions-utils" "^5.2.10"
     "@netlify/git-utils" "^5.1.1"
     "@netlify/plugins-list" "^6.68.0"
-    "@netlify/run-utils" "^5.1.0"
-    "@netlify/zip-it-and-ship-it" "9.7.0"
+    "@netlify/run-utils" "^5.1.1"
+    "@netlify/zip-it-and-ship-it" "9.8.0"
     "@sindresorhus/slugify" "^2.0.0"
     ansi-escapes "^6.0.0"
     chalk "^5.0.0"
@@ -230,7 +235,7 @@
     resolve "^2.0.0-next.1"
     rfdc "^1.3.0"
     safe-json-stringify "^1.2.0"
-    semver "^7.0.0"
+    semver "^7.3.8"
     string-width "^5.0.0"
     strip-ansi "^7.0.0"
     supports-color "^9.0.0"
@@ -284,10 +289,10 @@
     validate-npm-package-name "^4.0.0"
     yargs "^17.6.0"
 
-"@netlify/edge-bundler@8.16.0":
-  version "8.16.0"
-  resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-8.16.0.tgz#4eba044b93822f32fea21e7a81763c72a6985fc0"
-  integrity sha512-kDUDUHr8nLOsi7YGqBBIOkvrua9NjE6cuwPnI0/d3zzbBYb7D0RUrbq4bdLTXynAdkUDLXwF2kuX0FsGJbPKWw==
+"@netlify/edge-bundler@8.16.1":
+  version "8.16.1"
+  resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-8.16.1.tgz#e099eb94582dc53921312c3e0c051c450436a523"
+  integrity sha512-nLwQchCruBwjr2bgptxisoa+i182PwNc9eu1NTqwVZCIwDJhdBPJQVH251VunT0NJEchnpqJ4nZdTce3y1G6zQ==
   dependencies:
     "@import-maps/resolve" "^1.0.1"
     ajv "^8.11.2"
@@ -307,7 +312,7 @@
     p-wait-for "^4.1.0"
     path-key "^4.0.0"
     regexp-tree "^0.1.24"
-    semver "^7.3.5"
+    semver "^7.3.8"
     tmp-promise "^3.0.3"
     uuid "^9.0.0"
 
@@ -437,10 +442,10 @@
     "@netlify/esbuild-windows-64" "0.14.39"
     "@netlify/esbuild-windows-arm64" "0.14.39"
 
-"@netlify/framework-info@^9.8.8":
-  version "9.8.8"
-  resolved "https://registry.yarnpkg.com/@netlify/framework-info/-/framework-info-9.8.8.tgz#dea5af5bfef83dee82fa8cfaccb90e9145b8d193"
-  integrity sha512-oX+6U5g3KeRhMYaCQwzeKHZW9U/eRKnHZ8bWMiLhjB423QRllL/fVKnyTOBOnCnghi3Xc0xbp8nx2IXYoPNeDA==
+"@netlify/framework-info@^9.8.9":
+  version "9.8.9"
+  resolved "https://registry.yarnpkg.com/@netlify/framework-info/-/framework-info-9.8.9.tgz#6088871ca1e3001f906361678d41274db25fd74e"
+  integrity sha512-2ihT5SQk4eqspjyjr3VCpf2PZDimLbZuBpvh8GkK6eW2j6X8clq1Mz3fxoHrLcA0r32IwPskRPUgnJrSIvoPuw==
   dependencies:
     ajv "^8.12.0"
     filter-obj "^3.0.0"
@@ -451,14 +456,14 @@
     p-locate "^6.0.0"
     process "^0.11.10"
     read-pkg-up "^9.0.0"
-    semver "^7.3.4"
+    semver "^7.3.8"
 
-"@netlify/functions-utils@^5.2.9":
-  version "5.2.9"
-  resolved "https://registry.yarnpkg.com/@netlify/functions-utils/-/functions-utils-5.2.9.tgz#7a41d25cde6973f094a96d535aaa02a83b59481c"
-  integrity sha512-jOarqiCP2uxWloE6clabTZtgPBtHIRO7GLta2tELJTKCxCLIVyToqFhuhOkfbb4blaIwGQl/LbR1b3xVI4UVmg==
+"@netlify/functions-utils@^5.2.10":
+  version "5.2.10"
+  resolved "https://registry.yarnpkg.com/@netlify/functions-utils/-/functions-utils-5.2.10.tgz#a11331e91b170572a5f11fa7c9cb286e80ef5914"
+  integrity sha512-b9sddm8jwYf7YCb9F3bIKS6FfxiDe5j9sMlOPZXpVOoyJxbLj8kDW+1VWfiiRS8xS/8s4VPvmYDuLZUTLFLPlA==
   dependencies:
-    "@netlify/zip-it-and-ship-it" "9.7.0"
+    "@netlify/zip-it-and-ship-it" "9.8.0"
     cpy "^9.0.0"
     path-exists "^5.0.0"
 
@@ -542,10 +547,10 @@
   resolved "https://registry.yarnpkg.com/@netlify/plugins-list/-/plugins-list-6.68.0.tgz#92f664927b5138e2ee241dca5a71709274574bf5"
   integrity sha512-OIW7oDTXFKEyzG2DQr6ndLWjYfNnSZAKbldD2dquH3V8Q6DrbGk8Dhv6LkuGOJBgrKS25SyabYOyHIVASQjrFw==
 
-"@netlify/run-utils@^5.1.0":
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/@netlify/run-utils/-/run-utils-5.1.0.tgz#cea27aa6a95451aed0f53cc6d35635fe6a7aa0fb"
-  integrity sha512-fHBXEW35QmKB2MiSRXVBZ4t29t+QhvTClUfXsxLHLEPkEi9tE9N+d55ycZha/b5U8Tc1ZeyzzDFjjnKk+XHWbA==
+"@netlify/run-utils@^5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@netlify/run-utils/-/run-utils-5.1.1.tgz#be1938aaca58f9032054cddea02e2673ffa9c4ee"
+  integrity sha512-V2B8ZB19heVKa715uOeDkztxLH7uaqZ+9U5fV7BRzbQ2514DO5Vxj9hG0irzuRLfZXZZjp/chPUesv4VVsce/A==
   dependencies:
     execa "^6.0.0"
 
@@ -554,13 +559,13 @@
   resolved "https://registry.yarnpkg.com/@netlify/serverless-functions-api/-/serverless-functions-api-1.5.0.tgz#956c683d009b26a770d084ba609c9ed04531d1ef"
   integrity sha512-6O6mr4ynN4DWbI82nbt2ueq+tD9MeRD3BABTnjrxAJn85o79Lu3KFndr+Omur1OpbKEqIrWsFs0Bsi72DkPFbg==
 
-"@netlify/zip-it-and-ship-it@9.7.0":
-  version "9.7.0"
-  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-9.7.0.tgz#f51d1586ed3e20d4559773d93a260a1ca3913a19"
-  integrity sha512-ZY2rNkw6jq/Gg8gS1lT0vE1e73VnZgaXYkl0pNt6qSA3AyRofKm6ADpLxoM+2iHGYs/vEYfgnnvh7emddUazjw==
+"@netlify/zip-it-and-ship-it@9.8.0":
+  version "9.8.0"
+  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-9.8.0.tgz#ff212cf9dc39a8ce9c0c18af648076179afad2db"
+  integrity sha512-p7CJwd2Wy6yFcT5cb7g7+JUZk0kASRIev1lcLk0oeCuDjZAJ/LsFtzFwFEZkfkKn/NUu4TF8bdUha/PeoIXiPQ==
   dependencies:
     "@babel/parser" "7.16.8"
-    "@babel/parser_latest" "npm:@babel/parser@7.21.8"
+    "@babel/parser_latest" "npm:@babel/parser@7.22.4"
     "@netlify/binary-info" "^1.0.0"
     "@netlify/esbuild" "0.14.39"
     "@netlify/serverless-functions-api" "^1.5.0"
@@ -585,7 +590,7 @@
     precinct "^11.0.0"
     require-package-name "^2.0.1"
     resolve "^2.0.0-next.1"
-    semver "^7.0.0"
+    semver "^7.3.8"
     tmp-promise "^3.0.2"
     toml "^3.0.0"
     unixify "^1.0.0"
@@ -3585,6 +3590,13 @@ semver@^7.0.0, semver@^7.3.4, semver@^7.3.5, semver@^7.3.7:
   version "7.3.7"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.7.tgz#12c5b649afdbf9049707796e22a4028814ce523f"
   integrity sha512-QlYTucUYOews+WeEujDoEGziz4K6c47V/Bd+LjSSYcA94p+DmINdf7ncaUinThfvZyu13lN9OY1XDxt8C0Tw0g==
+  dependencies:
+    lru-cache "^6.0.0"
+
+semver@^7.3.8:
+  version "7.5.1"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.1.tgz#c90c4d631cf74720e46b21c1d37ea07edfab91ec"
+  integrity sha512-Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==
   dependencies:
     lru-cache "^6.0.0"
 
