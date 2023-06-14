@@ -182,14 +182,14 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/build@^29.12.4":
-  version "29.12.4"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.12.4.tgz#89a7e873b1a9252ac76cea1aca4b2cc1870f7d37"
-  integrity sha512-Ny1ebYzUZ9jWqAUQ3I4y91Oj8gBuASpPYtyeRad25ZuyMorKlaf0TLseXpcaUJ11LscwMTWJsaJ+3K+mUkKqAg==
+"@netlify/build@^29.12.5":
+  version "29.12.5"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.12.5.tgz#449fae2573d0a5cdfaf013d387be07abf116d817"
+  integrity sha512-K7cmWG03K6iuR9Ihd3D0eTElzQOxnmL991UmTVQd0edzJN01UORmO43OQJev8D6fcIPRAm1WKRDVuAh2azGwYQ==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/cache-utils" "^5.1.5"
-    "@netlify/config" "^20.4.6"
+    "@netlify/config" "^20.5.0"
     "@netlify/edge-bundler" "8.16.2"
     "@netlify/framework-info" "^9.8.10"
     "@netlify/functions-utils" "^5.2.12"
@@ -255,10 +255,10 @@
     path-exists "^5.0.0"
     readdirp "^3.4.0"
 
-"@netlify/config@^20.4.6":
-  version "20.4.6"
-  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-20.4.6.tgz#a3d9f49296bb2806ab2b64087f5368286b7be87a"
-  integrity sha512-kf3UyCUs3VdlFSSekYdzEybkF7IBh/WRQpGEwLNUzjwtRlDSfB9YQvAc+eKarxUeklaxflLxnDSThaQpSI2yMQ==
+"@netlify/config@^20.5.0":
+  version "20.5.0"
+  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-20.5.0.tgz#203b214a7a7286d5a6c1ad8ab774a20c4fa8be55"
+  integrity sha512-erbi9cLjx2V7kb2HuBjeaun0ytm29oraAGZtVD7Y+9/RP7rPp6NDQDfdY6iC8s2jY8qvMhUO3BXNqArHx6t+Iw==
   dependencies:
     chalk "^5.0.0"
     cron-parser "^4.1.0"
