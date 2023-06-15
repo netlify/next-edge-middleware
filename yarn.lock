@@ -182,10 +182,10 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/build@^29.12.6":
-  version "29.12.6"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.12.6.tgz#eb3618bdfee2df1ffdcbafe78c6d05e9d7a50698"
-  integrity sha512-qTeitoi5KOxjuta5/qPyUC7d5NfqTmc6xT+EohAZKOzgz8C5Bto/hfh+jbmAlfoNnyL20MVngn1wNXKJRZVRAA==
+"@netlify/build@^29.12.7":
+  version "29.12.7"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.12.7.tgz#21abd24c762ab3f1ddc866d64621a67c9e4734bb"
+  integrity sha512-Q/FJmVkwOEJby2v0aZos+JGsfbteI1G9Qc9OliGOM/cmA4dCN/yXfqvkEA+eeVlye4SPKxg4JSJuyqQqQcOzwg==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/cache-utils" "^5.1.5"
@@ -235,7 +235,6 @@
     strip-ansi "^7.0.0"
     supports-color "^9.0.0"
     terminal-link "^3.0.0"
-    tmp-promise "^3.0.2"
     ts-node "^10.9.1"
     typescript "^5.0.0"
     uuid "^9.0.0"
