@@ -223,15 +223,15 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/build@^29.15.6":
-  version "29.15.6"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.15.6.tgz#4cb6c11793b89364f6880527ec37457b99d476a9"
-  integrity sha512-KQXtALC5Gb/E0Hi9m5ieKZ1TZM38U7QmYAlSWGbHjuQDskWq/riwjtlUkqsJsBCP2NaniMIF2MhKTD8048SmLQ==
+"@netlify/build@^29.16.0":
+  version "29.16.0"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.16.0.tgz#e6f5a6ac052fbfaad05cfb3273d96c2048d3e854"
+  integrity sha512-Ogrk1ViAP9wNt6ok8dtzFkLUf3XBFYhsEkRyF+MECjYjk8Ehuz7wviUvJbS8I2uREX7XriRTv62I9M0Fo12T7A==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@honeycombio/opentelemetry-node" "^0.4.0"
     "@netlify/cache-utils" "^5.1.5"
-    "@netlify/config" "^20.5.2"
+    "@netlify/config" "^20.6.0"
     "@netlify/edge-bundler" "8.16.3"
     "@netlify/framework-info" "^9.8.10"
     "@netlify/functions-utils" "^5.2.18"
@@ -298,10 +298,10 @@
     path-exists "^5.0.0"
     readdirp "^3.4.0"
 
-"@netlify/config@^20.5.2":
-  version "20.5.2"
-  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-20.5.2.tgz#7f0bd5de8790e9960c30d6bcf3d4bbd15eee2634"
-  integrity sha512-EugQdivH+1noAtQQfcFsVNaj4nq67BdjxjRq7oPkfmnxo970aWiAMyqN3Jd4QyNd54zESEoyK12K2dsEJt5joA==
+"@netlify/config@^20.6.0":
+  version "20.6.0"
+  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-20.6.0.tgz#4fb8f050c3ac6bec0722e2a8f4e2fc5626e195af"
+  integrity sha512-YPWvkq7hYgYLVsbEPbGq7aZQh59D2h5NeIwgRZxabsheIMriyxpDZVVajK1+z1U0Z2DsJxn+XSOJSNSSKUIk4w==
   dependencies:
     chalk "^5.0.0"
     cron-parser "^4.1.0"
@@ -316,9 +316,10 @@
     is-plain-obj "^4.0.0"
     js-yaml "^4.0.0"
     map-obj "^5.0.0"
-    netlify "^13.1.9"
+    netlify "^13.1.10"
     netlify-headers-parser "^7.1.2"
     netlify-redirect-parser "^14.1.3"
+    node-fetch "^3.3.1"
     omit.js "^2.0.2"
     p-locate "^6.0.0"
     path-type "^5.0.0"
@@ -539,10 +540,10 @@
     ufo "^1.0.0"
     unstorage "^1.0.0"
 
-"@netlify/open-api@^2.19.0":
-  version "2.19.0"
-  resolved "https://registry.yarnpkg.com/@netlify/open-api/-/open-api-2.19.0.tgz#de98f855d0a6052b5604eb01313cbed60319c5a0"
-  integrity sha512-Mx5oo3Ts90nRV3lsuQ+wrALpxCMrqWmRowJylbHsxmuMEemdihUPN0m86Ed6kpJyoVMvmtiJpmMaNUbOJMwLCA==
+"@netlify/open-api@^2.19.1":
+  version "2.19.1"
+  resolved "https://registry.yarnpkg.com/@netlify/open-api/-/open-api-2.19.1.tgz#041ddb16ba219332a256ce84dffc6fdd2c964922"
+  integrity sha512-RkucRf8o0vYhCDXCRHWU/EdhkVE3JhkqKmZFvMW6qCPD206GV2Cfo9JGSKb0NdN+nmHSNaYmd+9dvT6I9MP4pw==
 
 "@netlify/plugin-nextjs@^4.39.1":
   version "4.39.1"
@@ -3305,12 +3306,12 @@ netlify-redirect-parser@^14.1.3:
     path-exists "^5.0.0"
     toml "^3.0.0"
 
-netlify@^13.1.9:
-  version "13.1.9"
-  resolved "https://registry.yarnpkg.com/netlify/-/netlify-13.1.9.tgz#ba2133aac77e5381db744ebe33069314bb596e22"
-  integrity sha512-sG4e25tI1Nv8az3y4d+P6vESTeS0RYMwUCgimLJkOn+rdphNGohGnvAb6mGCMUJ3SsMlfItF5Zr8GrG21ePdeA==
+netlify@^13.1.10:
+  version "13.1.10"
+  resolved "https://registry.yarnpkg.com/netlify/-/netlify-13.1.10.tgz#27520caf8582bd3c12d961e46b723f614c1d9b28"
+  integrity sha512-ByFz8S08HWVKd9r/lkTahZX7xSq4IRyPCUvuaduI4GHyQaSWEdVNK1krC05vlhL9W0SzDn8Yjowh0Ru4PKrOYw==
   dependencies:
-    "@netlify/open-api" "^2.19.0"
+    "@netlify/open-api" "^2.19.1"
     lodash-es "^4.17.21"
     micro-api-client "^3.3.0"
     node-fetch "^3.0.0"
@@ -3389,6 +3390,15 @@ node-fetch@^3.1.1:
   version "3.2.9"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-3.2.9.tgz#3f6070bf854de20f21b9fe8479f823462e615d7d"
   integrity sha512-/2lI+DBecVvVm9tDhjziTVjo2wmTsSxSk58saUYP0P/fRJ3xxtfMDY24+CKTkfm0Dlhyn3CSXNL0SoRiCZ8Rzg==
+  dependencies:
+    data-uri-to-buffer "^4.0.0"
+    fetch-blob "^3.1.4"
+    formdata-polyfill "^4.0.10"
+
+node-fetch@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-3.3.1.tgz#b3eea7b54b3a48020e46f4f88b9c5a7430d20b2e"
+  integrity sha512-cRVc/kyto/7E5shrWca1Wsea4y6tL9iYJE5FBCius3JQfb/4P4I295PfhgbJQBLTx6lATE4z+wK0rPM4VS2uow==
   dependencies:
     data-uri-to-buffer "^4.0.0"
     fetch-blob "^3.1.4"
