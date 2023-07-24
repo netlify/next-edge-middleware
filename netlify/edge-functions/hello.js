@@ -4,5 +4,5 @@ export default () =>
   )
 
 export const config = {
-  path: '^/hello',
+  path: '/hello',
 }
