@@ -4,5 +4,5 @@ export default () =>
   )
 
 export const config = {
-  path: '^/[*@([a-zA-Z0-9_-])]*(/|/*[^/]*[a-zA-Z0-9_-]*)',
+  path: '^/hello',
 }
