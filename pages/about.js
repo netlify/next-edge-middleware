@@ -20,7 +20,7 @@ export default function About({ banner }) {
         <Image
           width={500}
           height={300}
-          src="https://app.thefeedfactory.nl/api/assets/63d7ade92b50291e1f8f2158/pitch-deck-training.jpg"
+          src="https://images.unsplash.com/photo-1614350292382-c448d0110dfa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
           alt="Picture"
         />
       </div>
