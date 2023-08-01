@@ -546,10 +546,10 @@
   resolved "https://registry.yarnpkg.com/@netlify/open-api/-/open-api-2.19.1.tgz#041ddb16ba219332a256ce84dffc6fdd2c964922"
   integrity sha512-RkucRf8o0vYhCDXCRHWU/EdhkVE3JhkqKmZFvMW6qCPD206GV2Cfo9JGSKb0NdN+nmHSNaYmd+9dvT6I9MP4pw==
 
-"@netlify/plugin-nextjs@^4.39.1":
-  version "4.39.1"
-  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-4.39.1.tgz#e9d5abe281389e30d59cf5839496bb2a14a196db"
-  integrity sha512-gdpTDRYJg8g55MQBy1JMcVJ3UgHC71M/u7BccI9oqvizVtV7ESgyCdJgGFPfZJJGCgWe2ANfQCk1wgA0yosnow==
+"@netlify/plugin-nextjs@^4.39.2":
+  version "4.39.2"
+  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-4.39.2.tgz#85c2bcc165b31d07348e28a5ac76ca4d39eba096"
+  integrity sha512-8ZqZpBZeXX0zaSuLkrSjoh2ry6BFlXIiCEYgEMRyBBwgex2v5qR28OI/YTS9F+8aJXIShh530lHUD8Grzn0sFQ==
   dependencies:
     "@netlify/esbuild" "0.14.39"
     "@netlify/functions" "^1.6.0"
