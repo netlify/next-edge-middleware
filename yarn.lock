@@ -223,10 +223,10 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/build@^29.18.1":
-  version "29.18.1"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.18.1.tgz#2fa2a7c01b5a5e47a9513576d2cad5ad7aa05de9"
-  integrity sha512-0+tdKF0emo14mpfDS8qETNeJfjF46YETkpDCf07mx2BHbcxutQNe2/qKMJ0L5wh8+8LWwMc+1jCl6REke/c00Q==
+"@netlify/build@^29.19.0":
+  version "29.19.0"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.19.0.tgz#0f1bcfa035a2ecff0b68fcc152d460352b4c2f03"
+  integrity sha512-T0dmPrLotGn1z36dGHFzl1Ndq3DD3APFd+68PlD8k5w/IamnpDkrnNaFpz40+npqK48G+CylLxvXVwLYcHGw2g==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@honeycombio/opentelemetry-node" "^0.4.0"
@@ -234,11 +234,11 @@
     "@netlify/config" "^20.8.0"
     "@netlify/edge-bundler" "8.17.1"
     "@netlify/framework-info" "^9.8.10"
-    "@netlify/functions-utils" "^5.2.20"
+    "@netlify/functions-utils" "^5.2.21"
     "@netlify/git-utils" "^5.1.1"
     "@netlify/plugins-list" "^6.71.0"
     "@netlify/run-utils" "^5.1.1"
-    "@netlify/zip-it-and-ship-it" "9.14.0"
+    "@netlify/zip-it-and-ship-it" "9.15.0"
     "@opentelemetry/api" "^1.4.1"
     "@sindresorhus/slugify" "^2.0.0"
     ansi-escapes "^6.0.0"
@@ -498,12 +498,12 @@
     read-pkg-up "^9.0.0"
     semver "^7.3.8"
 
-"@netlify/functions-utils@^5.2.20":
-  version "5.2.20"
-  resolved "https://registry.yarnpkg.com/@netlify/functions-utils/-/functions-utils-5.2.20.tgz#cf50ae253b0df67d20dd2164fc1b1fec51294c76"
-  integrity sha512-cK5ypHnn7vaANxf/ECYHWVn6apL6/SZmlCHNHJMyNEL89FcKebt6DIGnC471MgktTNHKiGW4K1zJExa7DAsspQ==
+"@netlify/functions-utils@^5.2.21":
+  version "5.2.21"
+  resolved "https://registry.yarnpkg.com/@netlify/functions-utils/-/functions-utils-5.2.21.tgz#14684a6a5da411b91ae5c80ef99941b9d4f07059"
+  integrity sha512-AmeRbfRS3wZF6szFjqhezvCXNinGphl5sHSqKLymC3VW5psqwSF7mvGG1fzQ064R6CUtoEuz4Hek/sj4gM9t7w==
   dependencies:
-    "@netlify/zip-it-and-ship-it" "9.14.0"
+    "@netlify/zip-it-and-ship-it" "9.15.0"
     cpy "^9.0.0"
     path-exists "^5.0.0"
 
@@ -587,20 +587,20 @@
   dependencies:
     execa "^6.0.0"
 
-"@netlify/serverless-functions-api@^1.5.2":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@netlify/serverless-functions-api/-/serverless-functions-api-1.5.2.tgz#cb78ad64c1474b70c14c14fcc06ad832c1cd86f8"
-  integrity sha512-E9ZqnuWwGftXgO0JhGOl6h05bpnrH5EswQOuHIdTXBmhi4LedXjTNZ6xoSMgnhsE+x13WWq2P0yhaAl8Ly9lKw==
+"@netlify/serverless-functions-api@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@netlify/serverless-functions-api/-/serverless-functions-api-1.6.0.tgz#b052161f81673b24d904f2f5991623277a5ce31d"
+  integrity sha512-Lr5mxLAvSZyJhigSc0zhvAuusNR6VdJNvOmsDkxIN6f9xzmRpWyAEecCGtBc+hoSZlIeLzI7oFcKhaTzXcO2JA==
 
-"@netlify/zip-it-and-ship-it@9.14.0":
-  version "9.14.0"
-  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-9.14.0.tgz#931a00880e33c4c12b6d4e5751e4501d16920af1"
-  integrity sha512-Ej8f0FXxA0HqKmRLxUp7lFtgf7AuAlCP1k2o+K+8eDEz1dnCn7o0Y3oPdesK94uC5FYi8I+AyddpeO8xa3kqpA==
+"@netlify/zip-it-and-ship-it@9.15.0":
+  version "9.15.0"
+  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-9.15.0.tgz#5eabbb2829c53aa9ecb6788aa42fc8fec02e4bbd"
+  integrity sha512-xUihGc8X8GM+TnXzpo6Wd5Ak+2wD0AaM9h6KZuFLqFYV21NWmILw61bRqs94LLJxorLTh/KToe2Wf+UATDhv7g==
   dependencies:
     "@babel/parser" "^7.22.5"
     "@netlify/binary-info" "^1.0.0"
     "@netlify/esbuild" "0.14.39"
-    "@netlify/serverless-functions-api" "^1.5.2"
+    "@netlify/serverless-functions-api" "^1.6.0"
     "@vercel/nft" "^0.23.0"
     archiver "^5.3.0"
     common-path-prefix "^3.0.0"
