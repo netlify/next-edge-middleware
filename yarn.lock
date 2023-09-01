@@ -333,15 +333,15 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/build@^29.20.11":
-  version "29.20.11"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.20.11.tgz#ef9d44fc56a54a729390bfdc4e4c2d01a25a0d21"
-  integrity sha512-0+IouslqdBviQBJHAjJL01643G07UrOmQU4Q/mq4CI+/XRvBdSOTfgVU3unscSfHaKjNG03qR1sSbzTyrZ1T6g==
+"@netlify/build@^29.20.12":
+  version "29.20.12"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.20.12.tgz#d4847c0d7b1c3e29a8f2563214387bc35afe262f"
+  integrity sha512-nVTygj0mpWD9yfpILCi6NRPQmZHKUqTo2JJu4CrWrjVInNmBupJcmYvrBG9U71nodtOAQDnEGMcV64/G5rj1hw==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@honeycombio/opentelemetry-node" "^0.4.0"
     "@netlify/cache-utils" "^5.1.5"
-    "@netlify/config" "^20.8.0"
+    "@netlify/config" "^20.8.1"
     "@netlify/edge-bundler" "8.19.0"
     "@netlify/framework-info" "^9.8.10"
     "@netlify/functions-utils" "^5.2.26"
@@ -408,10 +408,10 @@
     path-exists "^5.0.0"
     readdirp "^3.4.0"
 
-"@netlify/config@^20.8.0":
-  version "20.8.0"
-  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-20.8.0.tgz#4ef3a20b20d3d5aea2978c8a767374ec5d9bbe74"
-  integrity sha512-jzklg2Kj9D/2h+QO2MNbbc7oz9Wo56Zp1ob/kaG9P7DJLZSgc0h6G2GQSybqKqvApLju+8iqPB2rMAp02QSjpA==
+"@netlify/config@^20.8.1":
+  version "20.8.1"
+  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-20.8.1.tgz#d2d1a5915792bee28a940730415ddc67d987b90a"
+  integrity sha512-GpkR8Z8UHCftATIILGoCXPW1nPzrSK85O85d29pQXqv5KO2sAx5glgZQtEgKJnE7JWzMy+h6qjRD9hi0Mvw3Nw==
   dependencies:
     chalk "^5.0.0"
     cron-parser "^4.1.0"
