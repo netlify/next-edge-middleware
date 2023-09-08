@@ -10,5 +10,5 @@ NEXT_USE_NETLIFY_EDGE = "true"
 package = "@netlify/plugin-nextjs"
 
 [[edge_functions]]
-  pattern = "^/[*@([a-zA-Z0-9_-])]*(/|/*[^/]*[a-zA-Z0-9_-]*)"
+  pattern = "/hello"
   function = "hello"
