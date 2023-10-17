@@ -353,16 +353,16 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/build@^29.23.0":
-  version "29.23.0"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.23.0.tgz#6883629f6bde2d995ddf93f49f44b8c2e90b370d"
-  integrity sha512-ol8B5gDF8h3dpOY8Bhv3BI44wwYkEIg4pEqf7AS7mXNcu/fl/NV+bE24WD1NvKDZvhFQhyIXHWR+7tzf8rMFmA==
+"@netlify/build@^29.23.1":
+  version "29.23.1"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.23.1.tgz#495b670db8e1f3c6561cf8dc31e8e24be1938bc7"
+  integrity sha512-Rt5Depj9QwBdvRW+atwWThBsLcWgNIUq6ZA2ypGWTu5+FISXaX8Py5tWsaeIMc7TS5/ZZBcJWYn+gSkgH+FWQg==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@honeycombio/opentelemetry-node" "^0.5.0"
     "@netlify/cache-utils" "^5.1.5"
     "@netlify/config" "^20.9.0"
-    "@netlify/edge-bundler" "9.2.1"
+    "@netlify/edge-bundler" "9.3.0"
     "@netlify/framework-info" "^9.8.10"
     "@netlify/functions-utils" "^5.2.35"
     "@netlify/git-utils" "^5.1.1"
@@ -458,12 +458,13 @@
     validate-npm-package-name "^4.0.0"
     yargs "^17.6.0"
 
-"@netlify/edge-bundler@9.2.1":
-  version "9.2.1"
-  resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-9.2.1.tgz#d8b852a5b07883ad276e5ccd26da6fc12341945d"
-  integrity sha512-GThjKlfjL4yyoKDBsKnPQUevi2zA0XJdibpPzkT53/ys3fx8W+w4SUpdrFyrpNCBItNvdKj+rcT+s6cbhk046Q==
+"@netlify/edge-bundler@9.3.0":
+  version "9.3.0"
+  resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-9.3.0.tgz#e3d8847480d69f255177ba373755752a5815ef26"
+  integrity sha512-qKY4DKxBKn8TFbil5d7i71ztuOdRBfSXzYW9vN3t7WP0R4MKcgUg6nqo4a9llso/TNGlPv9tDrKq+w4jhpfGhA==
   dependencies:
     "@import-maps/resolve" "^1.0.1"
+    "@vercel/nft" "^0.24.3"
     ajv "^8.11.2"
     ajv-errors "^3.0.0"
     better-ajv-errors "^1.2.0"
@@ -472,6 +473,7 @@
     esbuild "0.19.4"
     execa "^6.0.0"
     find-up "^6.3.0"
+    get-package-name "^2.2.0"
     get-port "^6.1.2"
     is-path-inside "^4.0.0"
     jsonc-parser "^3.2.0"
@@ -1526,6 +1528,23 @@
   version "0.23.0"
   resolved "https://registry.yarnpkg.com/@vercel/nft/-/nft-0.23.0.tgz#c9565eb0159ce2f58d891544be5eabf9c6d7b40c"
   integrity sha512-1iuPjyltiPqyZrvc/bW1CyICRdng8bVhpJT8MsIXV7Wj+mRFyJs9krsHbVy2pZwu7BMAgforQsT5TCY1JoBDxw==
+  dependencies:
+    "@mapbox/node-pre-gyp" "^1.0.5"
+    "@rollup/pluginutils" "^4.0.0"
+    acorn "^8.6.0"
+    async-sema "^3.1.1"
+    bindings "^1.4.0"
+    estree-walker "2.0.2"
+    glob "^7.1.3"
+    graceful-fs "^4.2.9"
+    micromatch "^4.0.2"
+    node-gyp-build "^4.2.2"
+    resolve-from "^5.0.0"
+
+"@vercel/nft@^0.24.3":
+  version "0.24.3"
+  resolved "https://registry.yarnpkg.com/@vercel/nft/-/nft-0.24.3.tgz#7a6c5b17a4ac153bd07d9d0511ccef20d1cefa66"
+  integrity sha512-IyBdIxmFAeGZnEfMgt4QrGK7XX4lWazlQj34HEi9dw04/WeDBJ7r1yaOIO5tTf9pbfvwUFodj9b0H+NDGGoOMg==
   dependencies:
     "@mapbox/node-pre-gyp" "^1.0.5"
     "@rollup/pluginutils" "^4.0.0"
@@ -2774,6 +2793,11 @@ get-intrinsic@^1.0.2:
     function-bind "^1.1.1"
     has "^1.0.3"
     has-symbols "^1.0.1"
+
+get-package-name@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/get-package-name/-/get-package-name-2.2.0.tgz#34d8438b5aa8b887a7c54cdf09854471cc8836de"
+  integrity sha512-LmCKVxioe63Fy6KDAQ/mmCSOSSRUE/x4zdrMD+7dU8quF3bGpzvP8mOmq4Dgce3nzU9AgkVDotucNOOg7c27BQ==
 
 get-port-please@^2.6.1:
   version "2.6.1"
