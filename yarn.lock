@@ -358,16 +358,16 @@
   resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-2.2.0.tgz#bf634e6f1a43df3fab2088b5093c9e8eda01b393"
   integrity sha512-j2C0+IvWj9CLNGPoiA7ETquMFDExZTrv4CarjfE6Au0eY3zlinnnTVae7DE+VQFK+U0CDM/O0VvelNy1QbsdwQ==
 
-"@netlify/build@^29.23.4":
-  version "29.23.4"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.23.4.tgz#c2db3a4bbed462c46e48d21d4649b32c90cb0076"
-  integrity sha512-3EGLnobIyB5B/HkHdLfbFFgzm0Qd2kN1xa3MdAoXksO2Wmysip6KFMD3/9fzoDNJEjw58IVCf8yT55cNgX/Prg==
+"@netlify/build@^29.23.5":
+  version "29.23.5"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.23.5.tgz#4a7891a29df37380feb9f807afd82e3043c2e898"
+  integrity sha512-8yVnQabZfwvJsTaCA3sgc8TVDsux1CW5HMTCK4Yd3bgmBSZqH7N+nY98qoP9sDFbUh+u2SYeBHt+bv3/HnhY0Q==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@honeycombio/opentelemetry-node" "^0.5.0"
     "@netlify/cache-utils" "^5.1.5"
     "@netlify/config" "^20.9.0"
-    "@netlify/edge-bundler" "9.3.0"
+    "@netlify/edge-bundler" "9.4.0"
     "@netlify/framework-info" "^9.8.10"
     "@netlify/functions-utils" "^5.2.37"
     "@netlify/git-utils" "^5.1.1"
@@ -463,10 +463,10 @@
     validate-npm-package-name "^4.0.0"
     yargs "^17.6.0"
 
-"@netlify/edge-bundler@9.3.0":
-  version "9.3.0"
-  resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-9.3.0.tgz#e3d8847480d69f255177ba373755752a5815ef26"
-  integrity sha512-qKY4DKxBKn8TFbil5d7i71ztuOdRBfSXzYW9vN3t7WP0R4MKcgUg6nqo4a9llso/TNGlPv9tDrKq+w4jhpfGhA==
+"@netlify/edge-bundler@9.4.0":
+  version "9.4.0"
+  resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-9.4.0.tgz#7e29038acbd5a3d37700a62ddf06d4b4477f95b1"
+  integrity sha512-ji901ukaB1sLMp/8vqq87UnlJqm0rIvtV7Y7yppquyG34hCb2nNAGZmLzZjkVq8YIvW190SnLR1xp0lnwOVTxA==
   dependencies:
     "@import-maps/resolve" "^1.0.1"
     "@vercel/nft" "^0.24.3"
