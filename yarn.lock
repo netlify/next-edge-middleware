@@ -358,10 +358,10 @@
   resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-2.2.0.tgz#bf634e6f1a43df3fab2088b5093c9e8eda01b393"
   integrity sha512-j2C0+IvWj9CLNGPoiA7ETquMFDExZTrv4CarjfE6Au0eY3zlinnnTVae7DE+VQFK+U0CDM/O0VvelNy1QbsdwQ==
 
-"@netlify/build@^29.23.5":
-  version "29.23.5"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.23.5.tgz#4a7891a29df37380feb9f807afd82e3043c2e898"
-  integrity sha512-8yVnQabZfwvJsTaCA3sgc8TVDsux1CW5HMTCK4Yd3bgmBSZqH7N+nY98qoP9sDFbUh+u2SYeBHt+bv3/HnhY0Q==
+"@netlify/build@^29.24.0":
+  version "29.24.0"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.24.0.tgz#791f6a834c308044cf221b5416df5704e40906b5"
+  integrity sha512-UyO0tvP4+X6lP+nMHlikGIYSxaFUs5bNISauHQ4LO9SOkSxDdLnm0Wj1szp6bsyDo4gzprUCBwWayrLeZBxOFA==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@honeycombio/opentelemetry-node" "^0.5.0"
@@ -375,6 +375,7 @@
     "@netlify/run-utils" "^5.1.1"
     "@netlify/zip-it-and-ship-it" "9.25.4"
     "@opentelemetry/api" "^1.4.1"
+    "@opentelemetry/core" "^1.17.1"
     "@sindresorhus/slugify" "^2.0.0"
     ansi-escapes "^6.0.0"
     chalk "^5.0.0"
@@ -901,6 +902,13 @@
   dependencies:
     "@opentelemetry/semantic-conventions" "1.15.2"
 
+"@opentelemetry/core@^1.17.1":
+  version "1.17.1"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/core/-/core-1.17.1.tgz#10c5e09c63aeb1836b34d80baf7113760fb19d96"
+  integrity sha512-I6LrZvl1FF97FQXPR0iieWQmKnGxYtMbWA1GrAXnLUR+B1Hn2m8KqQNEIlZAucyv00GBgpWkpllmULmZfG8P3g==
+  dependencies:
+    "@opentelemetry/semantic-conventions" "1.17.1"
+
 "@opentelemetry/exporter-jaeger@1.13.0":
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/@opentelemetry/exporter-jaeger/-/exporter-jaeger-1.13.0.tgz#e96436438d3f8cc7b262ab4e517d55f96f413161"
@@ -1234,6 +1242,11 @@
   version "1.15.2"
   resolved "https://registry.yarnpkg.com/@opentelemetry/semantic-conventions/-/semantic-conventions-1.15.2.tgz#3bafb5de3e20e841dff6cb3c66f4d6e9694c4241"
   integrity sha512-CjbOKwk2s+3xPIMcd5UNYQzsf+v94RczbdNix9/kQh38WiQkM90sUOi3if8eyHFgiBjBjhwXrA7W3ydiSQP9mw==
+
+"@opentelemetry/semantic-conventions@1.17.1":
+  version "1.17.1"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/semantic-conventions/-/semantic-conventions-1.17.1.tgz#93d219935e967fbb9aa0592cc96b2c0ec817a56f"
+  integrity sha512-xbR2U+2YjauIuo42qmE8XyJK6dYeRMLJuOlUP5SO4auET4VtOHOzgkRVOq+Ik18N+Xf3YPcqJs9dZMiDddz1eQ==
 
 "@parcel/watcher-android-arm64@2.3.0":
   version "2.3.0"
