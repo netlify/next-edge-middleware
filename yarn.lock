@@ -358,13 +358,19 @@
   resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-2.2.0.tgz#bf634e6f1a43df3fab2088b5093c9e8eda01b393"
   integrity sha512-j2C0+IvWj9CLNGPoiA7ETquMFDExZTrv4CarjfE6Au0eY3zlinnnTVae7DE+VQFK+U0CDM/O0VvelNy1QbsdwQ==
 
-"@netlify/build@^29.28.2":
-  version "29.28.2"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.28.2.tgz#652c77f7d89790792294107b5b74235c6620d586"
-  integrity sha512-yKOweo0LEe226eklcN5D2Lk8xzNXgASjUyYrr00EhuzVaMRk9vw0Qae41y01hEpoMaaIJPW7mzbfaSbAPT97LA==
+"@netlify/blobs@^6.3.1":
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-6.3.1.tgz#9ed1fd788ef3f23d749487830fc557504ca447c1"
+  integrity sha512-JjLz3WW7Wp6NVwQtDxPpWio4L3u9pnnDXnQ7Q16zgAFE9IA1rSjZVSsyOQrtkiBQIxaJ1Zr5eky8vrXJ5mdRWg==
+
+"@netlify/build@^29.29.0":
+  version "29.29.0"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.29.0.tgz#a5647706d7d1caa40a82873fc50a7789e5d01fa0"
+  integrity sha512-xvDJY3lCGVDpGqKvB0vDYt9777p6xR+a3GmKxA2JoJHLn3yidXm+X76Ef73kngGVcwU7FumQNx8nb8vzd1kKYg==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@honeycombio/opentelemetry-node" "^0.5.0"
+    "@netlify/blobs" "^6.3.1"
     "@netlify/cache-utils" "^5.1.5"
     "@netlify/config" "^20.10.0"
     "@netlify/edge-bundler" "10.1.3"
@@ -394,11 +400,13 @@
     log-process-errors "^8.0.0"
     map-obj "^5.0.0"
     memoize-one "^6.0.0"
+    node-fetch "^3.3.2"
     os-name "^5.0.0"
     p-event "^5.0.0"
     p-every "^2.0.0"
     p-filter "^3.0.0"
     p-locate "^6.0.0"
+    p-map "^6.0.0"
     p-reduce "^3.0.0"
     path-exists "^5.0.0"
     path-type "^5.0.0"
@@ -3879,6 +3887,15 @@ node-fetch@^3.3.1:
     fetch-blob "^3.1.4"
     formdata-polyfill "^4.0.10"
 
+node-fetch@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-3.3.2.tgz#d1e889bacdf733b4ff3b2b243eb7a12866a0b78b"
+  integrity sha512-dRB78srN/l6gqWulah9SrxeYnxeddIG30+GOqK/9OlLVyLg3HPnr6SqOWTWOXKRwC2eGYCkZ59NNuSgvSrpgOA==
+  dependencies:
+    data-uri-to-buffer "^4.0.0"
+    fetch-blob "^3.1.4"
+    formdata-polyfill "^4.0.10"
+
 node-forge@^1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-1.3.1.tgz#be8da2af243b2417d5f646a770663a92b7e9ded3"
@@ -4116,6 +4133,11 @@ p-map@^5.1.0:
   integrity sha512-SRbIQFoLYNezHkqZslqeg963HYUtqOrfMCxjNrFOpJ19WTYuq26rQoOXeX8QQiMLUlLqdYV/7PuDsdYJ7hLE1w==
   dependencies:
     aggregate-error "^4.0.0"
+
+p-map@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/p-map/-/p-map-6.0.0.tgz#4d9c40d3171632f86c47601b709f4b4acd70fed4"
+  integrity sha512-T8BatKGY+k5rU+Q/GTYgrEf2r4xRMevAN5mtXc2aPc4rS1j3s+vWTaO2Wag94neXuCAUAs8cxBL9EeB5EA6diw==
 
 p-reduce@^3.0.0:
   version "3.0.0"
