@@ -363,10 +363,10 @@
   resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-6.3.1.tgz#9ed1fd788ef3f23d749487830fc557504ca447c1"
   integrity sha512-JjLz3WW7Wp6NVwQtDxPpWio4L3u9pnnDXnQ7Q16zgAFE9IA1rSjZVSsyOQrtkiBQIxaJ1Zr5eky8vrXJ5mdRWg==
 
-"@netlify/build@^29.30.0":
-  version "29.30.0"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.30.0.tgz#ec1cf8ebb348dbbd0f2c26e47a397024dabcd3dd"
-  integrity sha512-1+7ddSL1HUWQHXAchzHEREoMqaeUNSHYLdUzbOhR8Q+qdjBnncqxdSSAdgQ3Riv7XzOZOET1erR3pN4ruUG6BA==
+"@netlify/build@^29.31.0":
+  version "29.31.0"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.31.0.tgz#1df4231f4e9a9d89f9900ac6636acbd459626c74"
+  integrity sha512-XtUXnj3LtdWxcgP4kz1k0creF9bZa7eGNh85B89sw4V99Mtsn1Sl89yAZJkEH6rtuGJIs1eiQ261nlhUZ6+C6Q==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@honeycombio/opentelemetry-node" "^0.5.0"
