@@ -705,10 +705,10 @@
   resolved "https://registry.yarnpkg.com/@netlify/open-api/-/open-api-2.26.0.tgz#cdc8033371079955501f4b9a5323f2dcd76741c2"
   integrity sha512-B7q+ySzQm6rJhaGbY0Pzqnb1p3FsBqwiPLnLtA17JgTsqmXgQ7j6OQImW9fRJy/Al1ob9M6Oxng/FA2c7aIW1g==
 
-"@netlify/plugin-nextjs@^4.41.2":
-  version "4.41.2"
-  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-4.41.2.tgz#4b5b444d1963ffb504ede17a01e1b691323db45b"
-  integrity sha512-+XByVkr9sRszq7xnsZ52EGi5xeTdAtj5PRxvP//xVywlGAi1jYintizdd6PCbI6Ty0Kegwgb0O6FgRKceyUIwA==
+"@netlify/plugin-nextjs@^4.41.3":
+  version "4.41.3"
+  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-4.41.3.tgz#f8274526147f652438cc6790b6819ca15d441dd3"
+  integrity sha512-l8TB61u7A1ZF22QpoyZtresSUsHOJGP9DatECnqlNab3lG8id1kz9Pso+nZVOznWOm98o7w51k2+TIf52x+DBQ==
   dependencies:
     "@netlify/blobs" "^2.2.0"
     "@netlify/esbuild" "0.14.39"
