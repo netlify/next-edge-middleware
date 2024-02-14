@@ -336,10 +336,10 @@
   resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-6.5.0.tgz#8a5a2119e09c551b97418a14cc834a9d56ec73ec"
   integrity sha512-wRFlNnL/Qv3WNLZd3OT/YYqF1zb6iPSo8T31sl9ccL1ahBxW1fBqKgF4b1XL7Z+6mRIkatvcsVPkWBcO+oJMNA==
 
-"@netlify/build@^29.34.0":
-  version "29.34.0"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.34.0.tgz#ff9101fa0c029e501264cc50d3d5c0296db3fe00"
-  integrity sha512-3/L58Zgz5xz7kPk922m4AJacdSjYMYzrIubfdM16wB4z6fGKIQry7Y5f6hYDTyIPBGnpkJEtRgUcqDV1XT2RJg==
+"@netlify/build@^29.34.1":
+  version "29.34.1"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.34.1.tgz#b8c207dea9190de9e240d6216c054b3448f871e3"
+  integrity sha512-+amKkf0PsTGw/nW4CebF+3TCMAcmYqnP2EOAxV2XNlvrfwV1y+yjIB919xubLdT0Q7BUoRH7Z7vaiN22IstsSA==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/blobs" "^6.5.0"
