@@ -336,21 +336,21 @@
   resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-6.5.0.tgz#8a5a2119e09c551b97418a14cc834a9d56ec73ec"
   integrity sha512-wRFlNnL/Qv3WNLZd3OT/YYqF1zb6iPSo8T31sl9ccL1ahBxW1fBqKgF4b1XL7Z+6mRIkatvcsVPkWBcO+oJMNA==
 
-"@netlify/build@^29.36.0":
-  version "29.36.0"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.36.0.tgz#f9d971d32f64028338b509ecc23466b48692fea0"
-  integrity sha512-AmbxvsdDoN0imGSD93/nFU1AGAbFK4DBwCz3VqTmRui+YgXQgugncTTVWrjSfkfUx9a6zgKS4h9Ma0cpQZfj1w==
+"@netlify/build@^29.36.1":
+  version "29.36.1"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.36.1.tgz#4bb31bfaf0c37f8f8266a18d517bfcb6c24b9bff"
+  integrity sha512-S+zQbdw7Np4NesLK3kA1BzmNK8oijNZ13y2kknJdGLyQbz+bQxU0iMIuMyFca+6LtGPPonCFlWPz+cKe9G0/Mw==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/blobs" "^6.5.0"
     "@netlify/cache-utils" "^5.1.5"
-    "@netlify/config" "^20.12.0"
+    "@netlify/config" "^20.12.1"
     "@netlify/edge-bundler" "11.2.2"
     "@netlify/framework-info" "^9.8.10"
     "@netlify/functions-utils" "^5.2.51"
     "@netlify/git-utils" "^5.1.1"
     "@netlify/opentelemetry-utils" "^1.0.2"
-    "@netlify/plugins-list" "^6.73.0"
+    "@netlify/plugins-list" "^6.75.0"
     "@netlify/run-utils" "^5.1.1"
     "@netlify/zip-it-and-ship-it" "9.29.2"
     "@opentelemetry/api" "~1.7.0"
@@ -414,10 +414,10 @@
     path-exists "^5.0.0"
     readdirp "^3.4.0"
 
-"@netlify/config@^20.12.0":
-  version "20.12.0"
-  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-20.12.0.tgz#d2fee59b836582a932933bdd6c9e612b86012245"
-  integrity sha512-RgUxG8I2tO/mef3/UY2k10yHOz68UKmJjpM8NCLd7hNYXfdXJeBKTwGJklrjV7zkx3XKbDgSJZwICBF0s6IM0Q==
+"@netlify/config@^20.12.1":
+  version "20.12.1"
+  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-20.12.1.tgz#e9df9860ff486b020d0a04e23a6e122ed8b1e7d1"
+  integrity sha512-sziuaOA9XfeQjQf6Yru7S9k9xTMy9GAJSPJL02WFld0cFDA5dgDyAFLN34jedIbgl7jVV+g7Vb2nOJocfgibbg==
   dependencies:
     "@iarna/toml" "^2.2.5"
     chalk "^5.0.0"
@@ -714,10 +714,10 @@
     slash "^3.0.0"
     tiny-glob "^0.2.9"
 
-"@netlify/plugins-list@^6.73.0":
-  version "6.74.0"
-  resolved "https://registry.yarnpkg.com/@netlify/plugins-list/-/plugins-list-6.74.0.tgz#8ca9c909b34826d109edbfc10839fd8d0feefa76"
-  integrity sha512-cWZ9vQ0LgKowjlSG4vkLAQ+P41aB8KFrRRId2WCvYeK3g2pUJpseceZtYzTuQvvsOtBZh5qVkqRz1Ye/AfSP+A==
+"@netlify/plugins-list@^6.75.0":
+  version "6.75.0"
+  resolved "https://registry.yarnpkg.com/@netlify/plugins-list/-/plugins-list-6.75.0.tgz#953855a92eb5ff688da4885608e85d5a30a9a6bf"
+  integrity sha512-xH5UWc6v6oOu53kaNhJI6o0vESVECoGBjD5hW5nmjFaIkEJFDfbtHj/gSQ2hCcwIzTlGYRGIyGVBMY+e7ki6bw==
 
 "@netlify/run-utils@^5.1.1":
   version "5.1.1"
