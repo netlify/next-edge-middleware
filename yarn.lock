@@ -450,10 +450,10 @@
   resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-6.5.0.tgz#8a5a2119e09c551b97418a14cc834a9d56ec73ec"
   integrity sha512-wRFlNnL/Qv3WNLZd3OT/YYqF1zb6iPSo8T31sl9ccL1ahBxW1fBqKgF4b1XL7Z+6mRIkatvcsVPkWBcO+oJMNA==
 
-"@netlify/build@^29.36.3":
-  version "29.36.3"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.36.3.tgz#0d1543749fa21872c139580a4f846fc0e57f2d91"
-  integrity sha512-WLJB98MVt1jfHuUZq3dg2RvqbThTtbrs/0zOyjFq0b3TVMic7CyOnVfDOz78pfwLwbojZM0PW+AVBh5hHkRJVA==
+"@netlify/build@^29.36.4":
+  version "29.36.4"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.36.4.tgz#1ed63ecc2f466d6959cf0424a8aec0b5ed6aba9c"
+  integrity sha512-043YEXlAzx9KpFTw+Om7nJ2oESYof5+cj+xZwNXbAM3JvmFAtN/aOFtYdQPKECM2f4T39Et56z+v5+zcDBAWjw==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/blobs" "^6.5.0"
@@ -463,11 +463,10 @@
     "@netlify/framework-info" "^9.8.10"
     "@netlify/functions-utils" "^5.2.51"
     "@netlify/git-utils" "^5.1.1"
-    "@netlify/opentelemetry-utils" "^1.0.2"
+    "@netlify/opentelemetry-utils" "^1.0.3"
     "@netlify/plugins-list" "^6.75.0"
     "@netlify/run-utils" "^5.1.1"
     "@netlify/zip-it-and-ship-it" "9.29.2"
-    "@opentelemetry/api" "~1.7.0"
     "@sindresorhus/slugify" "^2.0.0"
     ansi-escapes "^6.0.0"
     chalk "^5.0.0"
@@ -790,12 +789,10 @@
   resolved "https://registry.yarnpkg.com/@netlify/open-api/-/open-api-2.28.0.tgz#11f22423decd54e563a4c79135ffd21e1abed86f"
   integrity sha512-lSx9yVn5mzTS7u9aevQyDRoWaHJYNl15B7CU373g8We39wW8fGh4sdNY7ciPWshf42FblOVlBdoasn/LpzquXg==
 
-"@netlify/opentelemetry-utils@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@netlify/opentelemetry-utils/-/opentelemetry-utils-1.0.2.tgz#86e8a2732594bf8200cd3afcb1568b8c65089aa4"
-  integrity sha512-GeY5z/Af7q7DMSmJbJtrtKQaHCsw/XPdJwnryv/CqRpvg7z6rpGVH6V1UTck1Fe8BVQuB20mrb6qr4MZsAAiyg==
-  dependencies:
-    "@opentelemetry/api" "~1.7.0"
+"@netlify/opentelemetry-utils@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@netlify/opentelemetry-utils/-/opentelemetry-utils-1.0.3.tgz#fa526022f21b2a5da8c1212c380a4231b296eb28"
+  integrity sha512-1kpJ9lrCXkdhRy4DXf7H0MySOQ8K+8aAwl1aJGztMrq62luoN9qOAbZ5cnTpQHzBUfxveikWB32YuryNA42B8g==
 
 "@netlify/plugin-nextjs@^4.41.3":
   version "4.41.3"
@@ -964,11 +961,6 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
-
-"@opentelemetry/api@~1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/api/-/api-1.7.0.tgz#b139c81999c23e3c8d3c0a7234480e945920fc40"
-  integrity sha512-AdY5wvN0P2vXBi3b29hxZgSFvdhdxPB9+f0B6s//P9Q8nibRWeA3cHm8UmLpio9ABigkVHJ5NMPk+Mz8VCCyrw==
 
 "@parcel/watcher-android-arm64@2.3.0":
   version "2.3.0"
