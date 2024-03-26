@@ -450,17 +450,17 @@
   resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-6.5.0.tgz#8a5a2119e09c551b97418a14cc834a9d56ec73ec"
   integrity sha512-wRFlNnL/Qv3WNLZd3OT/YYqF1zb6iPSo8T31sl9ccL1ahBxW1fBqKgF4b1XL7Z+6mRIkatvcsVPkWBcO+oJMNA==
 
-"@netlify/build@^29.36.5":
-  version "29.36.5"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.36.5.tgz#074fecf591db6b86f9a74b11926d7325273807cd"
-  integrity sha512-AMY46tbtiABeT/BJWnRRZOiuh8xWpc4kn9UOFqOi3DQgAZw19HWFqO4D+dKbLLPCV3IomkiXxFhXCxPIj1/3vw==
+"@netlify/build@^29.36.6":
+  version "29.36.6"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.36.6.tgz#90a244f71b6f96744fce6e6151cb0daaebe0edae"
+  integrity sha512-crNoY5Vr7tAodBfYdz8weM+NTw5q6W6ArkowNw6QhKXa4iRXT5MY6H0c2ztsge9o5gAYs55bDhBpKiPcZlzDlA==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/blobs" "^6.5.0"
     "@netlify/cache-utils" "^5.1.5"
     "@netlify/config" "^20.12.1"
     "@netlify/edge-bundler" "11.3.0"
-    "@netlify/framework-info" "^9.8.10"
+    "@netlify/framework-info" "^9.8.11"
     "@netlify/functions-utils" "^5.2.51"
     "@netlify/git-utils" "^5.1.1"
     "@netlify/opentelemetry-utils" "^1.0.3"
@@ -712,10 +712,10 @@
     "@netlify/esbuild-windows-64" "0.14.39"
     "@netlify/esbuild-windows-arm64" "0.14.39"
 
-"@netlify/framework-info@^9.8.10":
-  version "9.8.10"
-  resolved "https://registry.yarnpkg.com/@netlify/framework-info/-/framework-info-9.8.10.tgz#a18589f132dafb5cb7f86c05a9895b9118633fe1"
-  integrity sha512-VT8ejAaB/XU2xRpdpQinHUO1YL3+BMx6LJ49wJk2u9Yq/VI1/gYCi5VqbqTHBQXJUlOi84YuiRlrDBsLpPr8eg==
+"@netlify/framework-info@^9.8.11":
+  version "9.8.11"
+  resolved "https://registry.yarnpkg.com/@netlify/framework-info/-/framework-info-9.8.11.tgz#a4b4740b906e7c59c853a8eaaf9a7067a2258a71"
+  integrity sha512-8NuvzQQVeU36PRilWqijiIWmjy6JZcqbKooGQ4bNgH/26YNdS+tN5gOWGWVYnRHgdmBUCycyYrM5h1Srwnq3hQ==
   dependencies:
     ajv "^8.12.0"
     filter-obj "^5.0.0"
