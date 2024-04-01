@@ -445,18 +445,18 @@
   resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-2.2.0.tgz#bf634e6f1a43df3fab2088b5093c9e8eda01b393"
   integrity sha512-j2C0+IvWj9CLNGPoiA7ETquMFDExZTrv4CarjfE6Au0eY3zlinnnTVae7DE+VQFK+U0CDM/O0VvelNy1QbsdwQ==
 
-"@netlify/blobs@^6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-6.5.0.tgz#8a5a2119e09c551b97418a14cc834a9d56ec73ec"
-  integrity sha512-wRFlNnL/Qv3WNLZd3OT/YYqF1zb6iPSo8T31sl9ccL1ahBxW1fBqKgF4b1XL7Z+6mRIkatvcsVPkWBcO+oJMNA==
+"@netlify/blobs@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-7.2.0.tgz#0b8d3ce78918a59c8c3af915b174cbe852303c26"
+  integrity sha512-ukPenoaJ89Oc6n20GsF8d3/jaaf9jO7tuwsyvBvTu0MYsGJh2qEacIyETu0PlwjzNQ5WsgVH47OwpM8PI9AOwQ==
 
-"@netlify/build@^29.37.2":
-  version "29.37.2"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.37.2.tgz#378741f3b6a06bd571535b50ecff389c1b33db35"
-  integrity sha512-/kDpDvZORYv5Q8VnAFWkKw81reeVqwySo+MxtIEpu8SifkCvz5+CVtlL1aBEj9H0QwIXhmthn7pTN4XPfYRsPw==
+"@netlify/build@^29.38.0":
+  version "29.38.0"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.38.0.tgz#e0edf83d6cc029b550aeb97eaf4bc4160cfc395d"
+  integrity sha512-xwf8MrfqWVXhxfl8kun3LR9Q5t4biDs69BxXFptFEFFIBneCDMtpmGESuxDmh94D8we/ImAyPkW1oNyeZZ8HEg==
   dependencies:
     "@bugsnag/js" "^7.0.0"
-    "@netlify/blobs" "^6.5.0"
+    "@netlify/blobs" "^7.2.0"
     "@netlify/cache-utils" "^5.1.5"
     "@netlify/config" "^20.12.1"
     "@netlify/edge-bundler" "11.3.0"
