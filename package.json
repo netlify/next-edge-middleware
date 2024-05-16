@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@netlify/build": "^29.41.5",
-    "@netlify/functions": "^1.6.0",
+    "@netlify/functions": "^2.7.0",
     "@netlify/plugin-nextjs": "^4.41.3"
   }
 }
