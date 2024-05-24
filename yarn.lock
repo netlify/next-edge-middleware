@@ -459,10 +459,10 @@
   resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-7.3.0.tgz#3331cfe79781c679f73bb2ee67619c4b2d1e5bb3"
   integrity sha512-wN/kNTZo4xjlUM/C0WILOkJbe8p4AFquSGkZEIoIcgnsx5ikp2GyqGiq1WMLee7QdbnqeIV2g2hn/PjT324E5w==
 
-"@netlify/build@^29.42.2":
-  version "29.42.2"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.42.2.tgz#0666c495026d7d5cfb1ec4c6053ba69d1b7978eb"
-  integrity sha512-7mQ+eIlq7uEocQuMJJCK0pgQfY3ahg2vcm+GmxZel58v2RpNq7PmyI4VUvdlblmb2TYwAAnHcAmTfTPpNCgclQ==
+"@netlify/build@^29.42.3":
+  version "29.42.3"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.42.3.tgz#1e8937e46110f05bf18180acd86f07e42e786a62"
+  integrity sha512-l/s5sBimjxwEA4TkEMrRBu33JFcMUAKAs7q0eqqiqD5Xfnn98wKyEN749zQjCi1GYJIXCHNkgdCEzdIEwFTaQg==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/blobs" "^7.3.0"
@@ -470,12 +470,12 @@
     "@netlify/config" "^20.12.6"
     "@netlify/edge-bundler" "12.0.1"
     "@netlify/framework-info" "^9.8.12"
-    "@netlify/functions-utils" "^5.2.57"
+    "@netlify/functions-utils" "^5.2.58"
     "@netlify/git-utils" "^5.1.1"
     "@netlify/opentelemetry-utils" "^1.2.1"
     "@netlify/plugins-list" "^6.80.0"
     "@netlify/run-utils" "^5.1.1"
-    "@netlify/zip-it-and-ship-it" "9.33.0"
+    "@netlify/zip-it-and-ship-it" "9.33.1"
     "@sindresorhus/slugify" "^2.0.0"
     ansi-escapes "^6.0.0"
     chalk "^5.0.0"
@@ -738,12 +738,12 @@
     read-package-up "^11.0.0"
     semver "^7.3.8"
 
-"@netlify/functions-utils@^5.2.57":
-  version "5.2.57"
-  resolved "https://registry.yarnpkg.com/@netlify/functions-utils/-/functions-utils-5.2.57.tgz#9f364aa3338d5001292b7774a443df0168d68ec8"
-  integrity sha512-87ZwjQ94YLJnVp/7qo0GBvw/8IUxc8nK122A4aYBQaqU2PnZDhGeZsDKyuF/yqy47aNdJtmzK2xxlK8vsEI3+A==
+"@netlify/functions-utils@^5.2.58":
+  version "5.2.58"
+  resolved "https://registry.yarnpkg.com/@netlify/functions-utils/-/functions-utils-5.2.58.tgz#597746884af001293ee128750766dede0298325a"
+  integrity sha512-Nc1rpoXKtAq095Sa0YW5aYgVYkqkXb7tW1AfXmHZTRk+zGUdYXMYSblBx+1UsCRg/wdftIGd3FuP+0TVmqHarw==
   dependencies:
-    "@netlify/zip-it-and-ship-it" "9.33.0"
+    "@netlify/zip-it-and-ship-it" "9.33.1"
     cpy "^9.0.0"
     path-exists "^5.0.0"
 
@@ -854,10 +854,10 @@
     "@netlify/node-cookies" "^0.1.0"
     urlpattern-polyfill "8.0.2"
 
-"@netlify/serverless-functions-api@^1.18.1":
-  version "1.18.1"
-  resolved "https://registry.yarnpkg.com/@netlify/serverless-functions-api/-/serverless-functions-api-1.18.1.tgz#6b4b7995b7bb58dc14cc4215b0f6eea5675f8e6b"
-  integrity sha512-DrSvivchuwsuQW03zbVPT3nxCQa5tn7m4aoPOsQKibuJXIuSbfxzCBxPLz0+LchU5ds7YyOaCc9872Y32ngYzg==
+"@netlify/serverless-functions-api@^1.18.2":
+  version "1.18.2"
+  resolved "https://registry.yarnpkg.com/@netlify/serverless-functions-api/-/serverless-functions-api-1.18.2.tgz#f3ed62542e95419747c8512e63c903881a64d910"
+  integrity sha512-KHhcNWP1B+8Io2aAobzRRuT1FSWb7Bfsih16dxKgaU9IgP/OxMVvssbmhRAmoR01rVGhQEiNN0vk6juMzOafOw==
   dependencies:
     "@netlify/node-cookies" "^0.1.0"
     "@opentelemetry/core" "^1.23.0"
@@ -867,15 +867,15 @@
     "@opentelemetry/semantic-conventions" "^1.23.0"
     urlpattern-polyfill "8.0.2"
 
-"@netlify/zip-it-and-ship-it@9.33.0":
-  version "9.33.0"
-  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-9.33.0.tgz#84420ac6eebc49faaaed97c186082a458d84d810"
-  integrity sha512-xHXX5lPM4p3GPRFi90yDCSwJVsS5tYb9n80Yk1YrHhBTDopO93X7ZvE1Xf5wC9WulflUyMrje/13nib7/NIbzA==
+"@netlify/zip-it-and-ship-it@9.33.1":
+  version "9.33.1"
+  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-9.33.1.tgz#92e22b56f4011b5a637eb8a71fb540454b88bf7b"
+  integrity sha512-66Lq45/Ms6XPK6sCAvhZOhjBD1ac6A7Buk74IeZCDshYz8xf4A+8NQcJe7+2XaNHxr+0/uOotwOa5JtFS5J1lQ==
   dependencies:
     "@babel/parser" "^7.22.5"
     "@babel/types" "7.24.5"
     "@netlify/binary-info" "^1.0.0"
-    "@netlify/serverless-functions-api" "^1.18.1"
+    "@netlify/serverless-functions-api" "^1.18.2"
     "@vercel/nft" "^0.23.0"
     archiver "^7.0.0"
     common-path-prefix "^3.0.0"
