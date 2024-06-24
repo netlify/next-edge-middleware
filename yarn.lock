@@ -482,16 +482,16 @@
   resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-7.3.0.tgz#3331cfe79781c679f73bb2ee67619c4b2d1e5bb3"
   integrity sha512-wN/kNTZo4xjlUM/C0WILOkJbe8p4AFquSGkZEIoIcgnsx5ikp2GyqGiq1WMLee7QdbnqeIV2g2hn/PjT324E5w==
 
-"@netlify/build@^29.49.0":
-  version "29.49.0"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.49.0.tgz#ac257177bde309e3cd5308b3660d6395fc058225"
-  integrity sha512-eh1zyLdMwJ/FqJJRVkMHtnTDv6sUL7kbsT7A80PE+hXVOenaASk2BgmfWRHU2+JGHu4+SpGJxfNxmxXgf9yvRw==
+"@netlify/build@^29.49.1":
+  version "29.49.1"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.49.1.tgz#5af9c650e2783b782ae3044b785d27f3a743cc5d"
+  integrity sha512-B91KwmOoOHGILIsPH+enMnZmB7Uhr/8JtSBs5c7mO5Xddesg1ds8Bo0VCmGJXMrIn9JnWv2iiP4BtQy8AT5bMA==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/blobs" "^7.3.0"
     "@netlify/cache-utils" "^5.1.5"
     "@netlify/config" "^20.15.4"
-    "@netlify/edge-bundler" "12.1.0"
+    "@netlify/edge-bundler" "12.1.1"
     "@netlify/framework-info" "^9.8.13"
     "@netlify/functions-utils" "^5.2.69"
     "@netlify/git-utils" "^5.1.1"
@@ -590,10 +590,10 @@
     validate-npm-package-name "^4.0.0"
     yargs "^17.6.0"
 
-"@netlify/edge-bundler@12.1.0":
-  version "12.1.0"
-  resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-12.1.0.tgz#99749df212809103b9da070a728629bc4ba456e2"
-  integrity sha512-yLVUbK9U0tijZYaZoDUJ4B/nc+DRfiUFjd/u8rcoVZp9HSgzLes+qUWrP4y5dbJwCDiPjeDXB+asIVzjYGTn0A==
+"@netlify/edge-bundler@12.1.1":
+  version "12.1.1"
+  resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-12.1.1.tgz#ac04292cae42add583acc1db1c4b3821598150cf"
+  integrity sha512-Jmq4JrWfTRdEJMgIrZt4kr6ETTCCVGupG6AgBwVZ6p93T7z9u9QBb4nkMDbCG6o9roGgUNlh2DtMG8HvD4zdUA==
   dependencies:
     "@import-maps/resolve" "^1.0.1"
     "@vercel/nft" "^0.27.0"
