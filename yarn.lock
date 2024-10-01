@@ -464,10 +464,10 @@
   resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-7.4.0.tgz#cc28b64436519fa2b8d51a0736e1549bdb84f5e0"
   integrity sha512-7rdPzo8bggt3D2CVO+U1rmEtxxs8X7cLusDbHZRJaMlxqxBD05mXgThj5DUJMFOvmfVjhEH/S/3AyiLUbDQGDg==
 
-"@netlify/build@^29.54.7":
-  version "29.54.7"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.54.7.tgz#4aa3d1ab3c74ac384c02503f0c5d33300062dded"
-  integrity sha512-mBglz1GawxA8Rm9JTc5pWpLPbVy+5uYsU74P5IAqcXHcJx6c1hDY+WMCxbNaQ8Mw9KA9ZIK/Ol2LtQQchQHEkg==
+"@netlify/build@^29.54.8":
+  version "29.54.8"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.54.8.tgz#698cedd07df6244eb6fbbadc7236882a81c58163"
+  integrity sha512-fc0sGawVgjwT8DuMdCEiCiDiykVDyMQheeQ17cLy+yYAfyXufu4A0ob1BVjWxqYEjC8Tk3THsdWF7TtgS8oqrw==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/blobs" "^7.4.0"
@@ -475,12 +475,12 @@
     "@netlify/config" "^20.19.0"
     "@netlify/edge-bundler" "12.2.3"
     "@netlify/framework-info" "^9.8.13"
-    "@netlify/functions-utils" "^5.2.86"
+    "@netlify/functions-utils" "^5.2.87"
     "@netlify/git-utils" "^5.1.1"
     "@netlify/opentelemetry-utils" "^1.2.1"
     "@netlify/plugins-list" "^6.80.0"
     "@netlify/run-utils" "^5.1.1"
-    "@netlify/zip-it-and-ship-it" "9.39.5"
+    "@netlify/zip-it-and-ship-it" "9.39.6"
     "@sindresorhus/slugify" "^2.0.0"
     ansi-escapes "^6.0.0"
     chalk "^5.0.0"
@@ -490,7 +490,7 @@
     figures "^5.0.0"
     filter-obj "^5.0.0"
     got "^12.0.0"
-    hot-shots "10.0.0"
+    hot-shots "10.1.1"
     indent-string "^5.0.0"
     is-plain-obj "^4.0.0"
     js-yaml "^4.0.0"
@@ -743,12 +743,12 @@
     read-pkg-up "^9.1.0"
     semver "^7.3.8"
 
-"@netlify/functions-utils@^5.2.86":
-  version "5.2.86"
-  resolved "https://registry.yarnpkg.com/@netlify/functions-utils/-/functions-utils-5.2.86.tgz#acfa3db3688ad6d0360d1dc0ad35d2b46f5e4951"
-  integrity sha512-aG4hAeRJ3NVUCBImxIaI4H1/OR9vQ4iaLhRd/dPCEgKccQyw2/EOjuGNg28tkhqwTNnCLpN3uDM2KK5n02IXUg==
+"@netlify/functions-utils@^5.2.87":
+  version "5.2.87"
+  resolved "https://registry.yarnpkg.com/@netlify/functions-utils/-/functions-utils-5.2.87.tgz#5ea5bf350589c9a991b6458cdc8d66a5e7771b8c"
+  integrity sha512-x+5utgLMovFSSwcUegkdkqvQ+aCX9FvfLNvQR+9vP1cibiG0T/9RqANYy2D2gGRPOCYmTLuhIllQtF7Rg+PmqA==
   dependencies:
-    "@netlify/zip-it-and-ship-it" "9.39.5"
+    "@netlify/zip-it-and-ship-it" "9.39.6"
     cpy "^9.0.0"
     path-exists "^5.0.0"
 
@@ -859,23 +859,23 @@
     "@netlify/node-cookies" "^0.1.0"
     urlpattern-polyfill "8.0.2"
 
-"@netlify/serverless-functions-api@^1.26.1":
-  version "1.26.1"
-  resolved "https://registry.yarnpkg.com/@netlify/serverless-functions-api/-/serverless-functions-api-1.26.1.tgz#6d2792a7fdbb3a6b852c219e4fb13622b30a9ec5"
-  integrity sha512-q3L9i3HoNfz0SGpTIS4zTcKBbRkxzCRpd169eyiTuk3IwcPC3/85mzLHranlKo2b+HYT0gu37YxGB45aD8A3Tw==
+"@netlify/serverless-functions-api@^1.28.0":
+  version "1.28.1"
+  resolved "https://registry.yarnpkg.com/@netlify/serverless-functions-api/-/serverless-functions-api-1.28.1.tgz#a68fcd1e09c70cfbe24211846a2977565f175153"
+  integrity sha512-FbGnw+BmgK9+UwkyF2t1YceUB62b4/AM67eBQqlJHML/zCZyRJQQ0lBSds5Lh5KScG+OL6fjYgeENIPbgcaL1g==
   dependencies:
     "@netlify/node-cookies" "^0.1.0"
     urlpattern-polyfill "8.0.2"
 
-"@netlify/zip-it-and-ship-it@9.39.5":
-  version "9.39.5"
-  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-9.39.5.tgz#04764a4ca00dcff1b1b47c9c0696208d70920f5a"
-  integrity sha512-Kj9rTshNo20YCuW/5IUZfmo/oCfzKUSk6nqBw7Lh0FLoKNVXe+6+YPRY2U9/VGuNqG/pTWPKnNYOzFyAI9xPIQ==
+"@netlify/zip-it-and-ship-it@9.39.6":
+  version "9.39.6"
+  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-9.39.6.tgz#53a94732eeab812e53003f90be9842ff4850dafb"
+  integrity sha512-m20Cy96UdHWX0M25ARQtF+qq41E1JddnRwlf8aqXTeBL53GGmI6xmNSsOF0ZFmZBvtUieBUwNGFSE/48htU1dw==
   dependencies:
     "@babel/parser" "^7.22.5"
     "@babel/types" "7.25.6"
     "@netlify/binary-info" "^1.0.0"
-    "@netlify/serverless-functions-api" "^1.26.1"
+    "@netlify/serverless-functions-api" "^1.28.0"
     "@vercel/nft" "^0.27.1"
     archiver "^7.0.0"
     common-path-prefix "^3.0.0"
@@ -2707,10 +2707,10 @@ hosted-git-info@^7.0.0:
   dependencies:
     lru-cache "^10.0.1"
 
-hot-shots@10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/hot-shots/-/hot-shots-10.0.0.tgz#d360f9dd252da78297aca1cb08fd84a8936739c2"
-  integrity sha512-uy/uGpuJk7yuyiKRfZMBNkF1GAOX5O2ifO9rDCaX9jw8fu6eW9QeWC7WRPDI+O98frW1HQgV3+xwjWsZPECIzQ==
+hot-shots@10.1.1:
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/hot-shots/-/hot-shots-10.1.1.tgz#8f1be5f07252bfb8b62a34254ce0872c7254991f"
+  integrity sha512-KTsH9hb+YZHH0IIRf22y0X8mPw8j521W5xRAUeaUlGNBDsf44ixE7ZeyXbUHd/nQ1n04UEhi2ja05/QVOS/CgQ==
   optionalDependencies:
     unix-dgram "2.x"
 
