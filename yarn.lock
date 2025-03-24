@@ -766,6 +766,13 @@
     "@netlify/serverless-functions-api" "1.11.0"
     is-promise "^4.0.0"
 
+"@netlify/functions@^3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-3.0.4.tgz#0668f0cb5995948624f8f597c29b4bcf0b1eb7fc"
+  integrity sha512-Ox8+ABI+nsLK+c4/oC5dpquXuEIjzfTlJrdQKgQijCsDQoje7inXFAtKDLvvaGvuvE+PVpMLwQcIUL6P9Ob1hQ==
+  dependencies:
+    "@netlify/serverless-functions-api" "1.36.0"
+
 "@netlify/git-utils@^5.2.0":
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/@netlify/git-utils/-/git-utils-5.2.0.tgz#6e61e8b3a11274c64125cf074b304156970c1c6f"
@@ -880,6 +887,11 @@
   dependencies:
     "@netlify/node-cookies" "^0.1.0"
     urlpattern-polyfill "8.0.2"
+
+"@netlify/serverless-functions-api@1.36.0":
+  version "1.36.0"
+  resolved "https://registry.yarnpkg.com/@netlify/serverless-functions-api/-/serverless-functions-api-1.36.0.tgz#e7e9ce83d059c4c845440ec861a7e69c0d800bfa"
+  integrity sha512-z6okREyK8in0486a22Oro0k+YsuyEjDXJt46FpgeOgXqKJ9ElM8QPll0iuLBkpbH33ENiNbIPLd1cuClRQnhiw==
 
 "@netlify/serverless-functions-api@^1.34.0":
   version "1.34.0"
